@@ -12,7 +12,7 @@ export default function LeaderboardPage() {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await fetch('/data/leetcode_leaderboard.csv');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/leetcode_leaderboard.csv`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

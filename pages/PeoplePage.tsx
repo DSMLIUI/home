@@ -12,7 +12,7 @@ export default function PeoplePage() {
   useEffect(() => {
     const fetchMembers = async () => {
       try {
-        const response = await fetch('/data/board_members.csv');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/board_members.csv`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
