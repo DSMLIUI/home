@@ -4,6 +4,7 @@ import Header from './components/Header';
 import PeoplePage from './pages/PeoplePage';
 import EventsPage from './pages/EventsPage';
 import HomePage from './pages/HomePage';
+import LeaderboardPage from './pages/LeaderboardPage';
 
 export default function App() {
   return (
@@ -15,9 +16,10 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/people" element={<PeoplePage />} />
             <Route path="/events" element={<EventsPage />} />
+            <Route path="/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </main>
-        <footer className="bg-gray-800 text-white text-center p-4">
+        <footer className="bg-black text-white text-center p-4">
             <p>&copy; {new Date().getFullYear()} DS/ML Club at IU. All Rights Reserved.</p>
         </footer>
       </div>

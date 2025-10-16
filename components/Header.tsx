@@ -8,13 +8,13 @@ const Logo = () => (
 );
 
 export default function Header() {
-  const activeLinkStyle = {
-    color: '#ffffff',
-    borderBottom: '2px solid #991b1b',
-  };
+  const getNavLinkClass = ({ isActive }: { isActive: boolean }) =>
+    `text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors relative ${
+      isActive ? 'text-white' : ''
+    }`;
 
   return (
-    <header className="bg-gray-900 shadow-md sticky top-0 z-50">
+    <header className="bg-black shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -27,24 +27,47 @@ export default function Header() {
             <div className="ml-10 flex items-baseline space-x-4">
               <NavLink 
                 to="/" 
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                style={({ isActive }) => isActive ? activeLinkStyle : undefined}
+                className={getNavLinkClass}
               >
-                Home
+                {({ isActive }) => (
+                  <>
+                    Home
+                    {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-0.5 bg-indigo-500 rounded-full"></span>}
+                  </>
+                )}
               </NavLink>
               <NavLink 
                 to="/events" 
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                style={({ isActive }) => isActive ? activeLinkStyle : undefined}
+                className={getNavLinkClass}
               >
-                Events
+                 {({ isActive }) => (
+                  <>
+                    Events
+                    {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-0.5 bg-indigo-500 rounded-full"></span>}
+                  </>
+                )}
               </NavLink>
               <NavLink 
                 to="/people" 
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                style={({ isActive }) => isActive ? activeLinkStyle : undefined}
+                className={getNavLinkClass}
               >
-                Our Board
+                 {({ isActive }) => (
+                  <>
+                    Our Board
+                    {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-0.5 bg-indigo-500 rounded-full"></span>}
+                  </>
+                )}
+              </NavLink>
+              <NavLink 
+                to="/leaderboard" 
+                className={getNavLinkClass}
+              >
+                 {({ isActive }) => (
+                  <>
+                    Leaderboard
+                    {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-0.5 bg-indigo-500 rounded-full"></span>}
+                  </>
+                )}
               </NavLink>
             </div>
           </nav>

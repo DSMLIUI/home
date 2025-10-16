@@ -5,3 +5,10 @@ export interface BoardMember {
   linkedin_url: string;
   bio: string;
 }
+
+export interface LeaderboardEntry {
+  rank: string;
+  name: string;
+  points: string;
+  change: string;
+}

@@ -42,13 +42,13 @@ export default function PeoplePage() {
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-800 tracking-tight sm:text-5xl">Meet the Board</h1>
-        <p className="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
+        <h1 className="text-4xl font-bold text-white tracking-tight sm:text-5xl">Meet the Board</h1>
+        <p className="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
           The dedicated team leading the Data Science & Machine Learning Club at IU.
         </p>
       </div>
       
-      {loading && <div className="text-center text-gray-500">Loading members...</div>}
+      {loading && <div className="text-center text-gray-400">Loading members...</div>}
       {error && <div className="text-center text-red-500">Failed to load members: {error}</div>}
 
       {!loading && !error && (

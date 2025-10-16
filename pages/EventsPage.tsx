@@ -4,8 +4,8 @@ export default function EventsPage() {
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-800 tracking-tight sm:text-5xl">Club Events</h1>
-        <p className="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
+        <h1 className="text-4xl font-bold text-white tracking-tight sm:text-5xl">Club Events</h1>
+        <p className="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
           Join us for workshops, speaker sessions, and networking events.
         </p>
       </div>
@@ -19,7 +19,7 @@ export default function EventsPage() {
           title="Club Events Calendar"
         ></iframe>
       </div>
-      <div className="text-center mt-4 text-sm text-gray-500">
+      <div className="text-center mt-4 text-sm text-gray-400">
         <p>Note: Please replace 'YOUR_CALENDAR_ID' with your actual public Google Calendar ID.</p>
       </div>
     </div>
