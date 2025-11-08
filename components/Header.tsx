@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
              <NavLink to="/" className="flex items-center space-x-2">
-                <img src="/logo.svg" alt="Logo" className="w-10 h-10 text-white"/>
+                <img src="logo.svg" alt="Logo" className="w-10 h-10 text-white"/>
                 <span className="text-xl font-bold text-white">DSML @ IUI</span>
             </NavLink>
           </div>
