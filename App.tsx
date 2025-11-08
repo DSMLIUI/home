@@ -20,7 +20,7 @@ export default function App() {
           </Routes>
         </main>
         <footer className="bg-black text-white text-center p-4">
-            <p>&copy; {new Date().getFullYear()} DS/ML Club at IU. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} DSML Club at IU Indy. All Rights Reserved.</p>
         </footer>
       </div>
     </HashRouter>
