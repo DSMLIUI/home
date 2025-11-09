@@ -13,10 +13,10 @@ export default function App() {
         <Header />
         <main className="flex-grow">
           <Routes>
-            <Route path="" element={<HomePage />} />
-            <Route path="people" element={<PeoplePage />} />
-            <Route path="events" element={<EventsPage />} />
-            <Route path="leaderboard" element={<LeaderboardPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/people" element={<PeoplePage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </main>
         <footer className="bg-black text-white text-center p-4">
