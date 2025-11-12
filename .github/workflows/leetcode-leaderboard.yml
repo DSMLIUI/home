@@ -33,6 +33,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add leetcode_leaderboard.csv recent_ac_submissions.csv
+        git add public/data/recent_ac_submissions.csv public/data/recent_ac_submissions.csv
         git commit -m "Update leaderboard data - $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         git push
