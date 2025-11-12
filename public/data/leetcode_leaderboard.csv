@@ -1,7 +1,6 @@
-rank,name,points,change
-1,Jagath_kumar_reddy_k,823.9,0
-2,yashwanth1129,1054.9,0
-3,_Greenleaf,1347.0,0
-4,Vigneshwar_RR,1640.9,0
-5,madhavan02,4108.4,0
-6,user2464b,5021.0,0
+rank,id,points,change,name,linkedin_url
+1,Jagath_kumar_reddy_k,823.9,0,Jagath Kumar Reddy,https://www.linkedin.com/in/jagathkrk/
+2,yashwanth1129,1054.9,0,Yashwanth Anantha,https://www.linkedin.com/in/yashwanth-anantha-13a099192/
+3,Vigneshwar_RR,1640.9,0,Vigneshwar Ravi,https://www.linkedin.com/in/vigneshwarravirao/
+4,madhavan02,4108.4,0,Madhavan Balaji,https://www.linkedin.com/in/madhavanbalaji/
+5,user2464b,5021.0,0,Raghuveer Venkatesh,https://www.linkedin.com/in/raghuveer-venkatesh/

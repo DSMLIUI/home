@@ -43,7 +43,6 @@ def get_recent_ac_submissions(username, limit=20):
          query recentAcSubmissionList($username: String!, $limit: Int!) {
             recentAcSubmissionList(username: $username, limit: $limit) {
                 id
-                title
                 titleSlug
                 timestamp
                 lang
@@ -70,7 +69,7 @@ def get_recent_ac_submissions(username, limit=20):
             print(f"Error: Unexpected response format. {data}")
             return None
     else:
-        print(f'Failed to retrieve submissions for {username}: {response.status_code}')
+        print(f'Failed to retrieve submissions for {username}, response status code: {response.status_code}')
         return None
 
 
@@ -78,47 +77,51 @@ def get_recent_ac_submissions(username, limit=20):
 def main():
 
     UNITS = "BKMGTP"
-    
-    with open('public/data/usernames.txt', 'r') as file:
-        usernames = file.readlines()
-    
-    usernames = [username.strip() for username in usernames if username.strip()]
+
+    df_user = pd.read_csv('public/data/usernames.csv')
+    usernames = df_user['id'].tolist()
 
     df_all = pd.read_csv('public/data/recent_ac_submissions.csv') if pd.io.common.file_exists('public/data/recent_ac_submissions.csv') else pd.DataFrame()
     df_rank_old = pd.read_csv('public/data/leetcode_leaderboard.csv') if pd.io.common.file_exists('public/data/leetcode_leaderboard.csv') else pd.DataFrame()
-    df_rank_old = df_rank_old[['name', 'points']].rename(columns={'points': 'points_old'})
+    df_rank_old = df_rank_old[['id', 'points']].rename(columns={'points': 'points_old'})
 
     for username in usernames:
         recent_subs = get_recent_ac_submissions(username)
         df = pd.DataFrame(recent_subs)
-        print(f"Fetched {len(df)} submissions for user: {username}")
-        df['name'] = username
+        print(f"Fetched {len(df)} recent submissions for user: {username}")
+        df['id'] = username
         df_all = pd.concat([df_all, df], ignore_index=True)
 
 
     df_all['runtime_val'] = df_all['runtime'].apply(lambda x: int(x.split()[0].rstrip(UNITS)))
     df_all['memory_val'] = df_all['memory'].apply(lambda x: float(x.split()[0].rstrip(UNITS)))
-    df_all.sort_values(by=['name', 'titleSlug', 'runtime_val', 'memory_val'], ascending=[True, True , True, True], inplace=True)
-    df_all = df_all.drop_duplicates(subset=['name', 'titleSlug'], keep='first')
+    df_all.sort_values(by=['id', 'titleSlug', 'runtime_val', 'memory_val'], ascending=[True, True , True, True], inplace=True)
+    df_all = df_all.drop_duplicates(subset=['id', 'titleSlug'], keep='first')
 
 
     ### The below block calculates the points - need to change it appropriately
+    ##################################
 
     df_all['points'] = df_all['runtime_val'] + df_all['memory_val']
 
+    ##################################
 
-    df_rank_new = df_all.groupby('name')['points'].sum().reset_index().sort_values(by='points')
+    df_rank_new = df_all.groupby('id')['points'].sum().reset_index().sort_values(by='points')
+
+    # filtering only for the usernames in the list and retaining the old user's data in recent_ac_submissions.csv
+    df_rank_new = df_rank_new[df_rank_new['id'].isin(usernames)] 
+
     df_rank_new.reset_index(drop=True, inplace=True)
     df_rank_new['rank'] = df_rank_new.index + 1
-    df_rank_new = df_rank_new[['rank', 'name', 'points']]
+    df_rank_new = df_rank_new[['rank', 'id', 'points']]
     df_rank_new.sort_values(by = 'rank', ascending=True, inplace=True)
 
-    df_merged_points = df_rank_new.merge(df_rank_old, on='name', how='left')
+    df_merged_points = df_rank_new.merge(df_rank_old, on='id', how='left')
     df_merged_points['change'] = (df_merged_points['points'] - df_merged_points['points_old']).fillna(0).astype(int)
-    df_result = df_merged_points[['rank', 'name', 'points', 'change']]
+    df_result = df_merged_points[['rank', 'id', 'points', 'change']]
+    df_result = df_result.merge(df_user, on='id', how='left')
 
-
-    #print(df_overall_rank)
+    print(df_result)
 
     df_all.to_csv('public/data/recent_ac_submissions.csv', index=False)
     df_result.to_csv('public/data/leetcode_leaderboard.csv', index=False)
