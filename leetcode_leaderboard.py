@@ -85,7 +85,7 @@ def main():
     usernames = [username.strip() for username in usernames if username.strip()]
 
     df_all = pd.read_csv('public/data/recent_ac_submissions.csv') if pd.io.common.file_exists('public/data/recent_ac_submissions.csv') else pd.DataFrame()
-    df_rank_old = pd.read_csv('public/data/overall_leaderboard.csv') if pd.io.common.file_exists('public/data/overall_leaderboard.csv') else pd.DataFrame()
+    df_rank_old = pd.read_csv('public/data/leetcode_leaderboard.csv') if pd.io.common.file_exists('public/data/leetcode_leaderboard.csv') else pd.DataFrame()
     df_rank_old = df_rank_old[['name', 'points']].rename(columns={'points': 'points_old'})
 
     for username in usernames:
@@ -121,7 +121,7 @@ def main():
     #print(df_overall_rank)
 
     df_all.to_csv('public/data/recent_ac_submissions.csv', index=False)
-    df_result.to_csv('public/data/overall_leaderboard.csv', index=False)
+    df_result.to_csv('public/data/leetcode_leaderboard.csv', index=False)
 
     print("Successfully scraped and saved data!")
 
