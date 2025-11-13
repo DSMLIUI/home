@@ -49,15 +49,15 @@ export default function LeaderboardItem({ entry, mode }: LeaderboardItemProps) {
       className="flex items-center px-4 py-4 border-b border-gray-700 last:border-b-0 hover:bg-gray-800 transition-colors duration-200 cursor-pointer"
     >
       <div className="w-12 text-center">
-        <span className="text-lg font-bold text-white">{medal || rank}</span>
+        <span className={`${medal ? 'text-2xl' : 'text-lg'} font-bold text-white`}>{medal || rank}</span>
       </div>
-      <div className="flex-grow ml-6">
+      <div className="flex-grow ml-12">
         <p className="text-lg font-medium text-white">{entry.name}</p>
       </div>
-      <div className="w-32 text-right pr-4">
+      <div className="hidden sm:flex w-32 text-right pr-4">
         <p className="text-lg font-bold text-indigo-400">{points}</p>
       </div>
-      <div className="w-20 text-right">
+      <div className="hidden sm:flex w-20 text-right">
         <ChangeIndicator change={change} />
       </div>
     </div>

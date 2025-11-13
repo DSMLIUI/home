@@ -100,15 +100,15 @@ export default function LeaderboardPage() {
               <div className="w-12 text-center">
                 <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Rank</span>
               </div>
-              <div className="flex-grow ml-6">
+              <div className="flex-grow ml-12">
                 <p className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Name</p>
               </div>
-              <div className="w-32 text-right pr-4">
+              <div className="hidden sm:flex w-32 text-right pr-4">
                 <p className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
                   {mode === 'overall' ? 'Global Rank' : 'Weekly Points'}
                 </p>
               </div>
-              <div className="w-20 text-right">
+              <div className="hidden sm:flex w-20 text-right">
                 <p className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Change</p>
               </div>
             </div>
