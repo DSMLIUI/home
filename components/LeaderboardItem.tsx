@@ -3,6 +3,7 @@ import type { LeaderboardEntry } from '../types';
 
 interface LeaderboardItemProps {
   entry: LeaderboardEntry;
+  mode: 'overall' | 'weekly';
 }
 
 const getMedal = (rank: string) => {
@@ -30,22 +31,33 @@ const ChangeIndicator = ({ change }: { change: number }) => {
   );
 };
 
-export default function LeaderboardItem({ entry }: LeaderboardItemProps) {
-  const medal = getMedal(entry.rank);
-  const change = parseInt(entry.change, 10);
+export default function LeaderboardItem({ entry, mode }: LeaderboardItemProps) {
+  const rank = mode === 'overall' ? entry.overall_rank : entry.weekly_rank;
+  const points = mode === 'overall' ? entry.overall_points : entry.weekly_points;
+  const change = mode === 'overall' ? parseInt(entry.overall_change, 10) : parseInt(entry.weekly_change, 10);
+  
+  const medal = getMedal(rank);
+  const leetcodeProfileUrl = `http://leetcode.com/u/${entry.id}/`;
+
+  const handleRowClick = () => {
+    window.open(leetcodeProfileUrl, '_blank');
+  };
 
   return (
-    <div className="flex items-center p-4 border-b border-gray-700 last:border-b-0 hover:bg-gray-800 transition-colors duration-200">
+    <div 
+      onClick={handleRowClick}
+      className="flex items-center px-4 py-4 border-b border-gray-700 last:border-b-0 hover:bg-gray-800 transition-colors duration-200 cursor-pointer"
+    >
       <div className="w-12 text-center">
-        <span className="text-lg font-bold text-white">{medal || entry.rank}</span>
+        <span className="text-lg font-bold text-white">{medal || rank}</span>
       </div>
-      <div className="flex-grow ml-4">
+      <div className="flex-grow ml-6">
         <p className="text-lg font-medium text-white">{entry.name}</p>
       </div>
-      <div className="w-24 text-right">
-        <p className="text-lg font-bold text-indigo-400">{entry.points}</p>
+      <div className="w-32 text-right pr-4">
+        <p className="text-lg font-bold text-indigo-400">{points}</p>
       </div>
-      <div className="w-16 text-right">
+      <div className="w-20 text-right">
         <ChangeIndicator change={change} />
       </div>
     </div>

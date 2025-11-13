@@ -7,8 +7,13 @@ export interface BoardMember {
 }
 
 export interface LeaderboardEntry {
-  rank: string;
+  id: string;
   name: string;
-  points: string;
-  change: string;
+  linkedin_url: string;
+  overall_rank: string;
+  overall_points: string;
+  overall_change: string;
+  weekly_rank: string;
+  weekly_points: string;
+  weekly_change: string;
 }

@@ -52,10 +52,27 @@ export default function PeoplePage() {
       {error && <div className="text-center text-red-500">Failed to load members: {error}</div>}
 
       {!loading && !error && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-          {members.map((member) => (
-            <PersonCard key={member.name} member={member} />
-          ))}
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {members.map((member) => (
+              <PersonCard key={member.name} member={member} />
+            ))}
+          </div>
+          
+          {/* Call to Action */}
+          <div className="mt-12 text-center">
+            <p className="text-lg text-gray-300">
+              Wanna join our club!{' '}
+              <a
+                href="https://forms.gle/MRg5a7RArwJVCNcu5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 font-semibold underline transition-colors"
+              >
+                Register here
+              </a>
+            </p>
+          </div>
         </div>
       )}
     </div>

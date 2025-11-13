@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import PeoplePage from './pages/PeoplePage';
 import EventsPage from './pages/EventsPage';
 import HomePage from './pages/HomePage';
@@ -19,9 +20,7 @@ export default function App() {
             <Route path="/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </main>
-        <footer className="bg-black text-white text-center p-4">
-            <p>&copy; {new Date().getFullYear()} DSML Club at IU Indy. All Rights Reserved.</p>
-        </footer>
+        <Footer />
       </div>
     </HashRouter>
   );
