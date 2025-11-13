@@ -42,7 +42,6 @@ def get_recent_ac_submissions(username, limit=20):
         "query": """
          query recentAcSubmissionList($username: String!, $limit: Int!) {
             recentAcSubmissionList(username: $username, limit: $limit) {
-                id
                 titleSlug
                 timestamp
                 lang

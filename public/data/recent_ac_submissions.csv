@@ -1,219 +1,110 @@
-id,titleSlug,timestamp,lang,statusDisplay,runtime,memory,runtime_val,memory_val,overall_score,points,name,weekly_points
-1097620190,sort-vowels-in-a-string,1699847768,python3,Accepted,148 ms,24.3 MB,148,24.3,,172.3,Vigneshwar_RR,172.3
-1408842976,rank-transform-of-an-array,1727836286,cpp,Accepted,73 ms,44.5 MB,73,44.5,,117.5,_Greenleaf,117.5
-1412788071,permutation-in-string,1728147470,cpp,Accepted,3 ms,8.8 MB,3,8.8,,11.8,_Greenleaf,11.8
-1414299220,minimum-string-length-after-removing-substrings,1728269478,cpp,Accepted,7 ms,11.4 MB,7,11.4,,18.4,_Greenleaf,18.4
-1416534778,minimum-add-to-make-parentheses-valid,1728444317,cpp,Accepted,3 ms,7.7 MB,3,7.7,,10.7,_Greenleaf,10.7
-1422781199,separate-black-and-white-balls,1728968331,cpp,Accepted,30 ms,15.5 MB,30,15.5,,45.5,_Greenleaf,45.5
-1439493176,delete-characters-to-make-fancy-string,1730428795,cpp,Accepted,22 ms,42.8 MB,22,42.8,,64.8,_Greenleaf,64.8
-1441212075,circular-sentence,1730591945,cpp,Accepted,0 ms,8.3 MB,0,8.3,,8.3,_Greenleaf,8.3
-1441337175,rotate-string,1730603546,cpp,Accepted,0 ms,7.5 MB,0,7.5,,7.5,_Greenleaf,7.5
-1442075749,divide-players-into-teams-of-equal-skill,1730664127,cpp,Accepted,23 ms,56.3 MB,23,56.3,,79.3,_Greenleaf,79.3
-1451215499,count-the-number-of-fair-pairs,1731470549,cpp,Accepted,64 ms,60.3 MB,64,60.3,,124.3,_Greenleaf,124.3
-1456781986,maximum-sum-of-distinct-subarrays-with-length-k,1731983227,cpp,Accepted,246 ms,105.3 MB,246,105.3,,351.3,_Greenleaf,351.3
-1494667206,count-vowel-strings-in-ranges,1735789888,cpp,Accepted,4 ms,69.8 MB,4,69.8,,73.8,_Greenleaf,73.8
-1527006517,special-array-i,1738383166,cpp,Accepted,0 ms,27.7 MB,0,27.7,,27.7,_Greenleaf,27.7
-1529068978,check-if-array-is-sorted-and-rotated,1738529984,cpp,Accepted,0 ms,11.2 MB,0,11.2,,11.2,_Greenleaf,11.2
-1531792950,check-if-one-string-swap-can-make-strings-equal,1738727615,cpp,Accepted,0 ms,8.2 MB,0,8.2,,8.2,_Greenleaf,8.2
-1534399346,find-the-number-of-distinct-colors-among-the-balls,1738907693,cpp,Accepted,114 ms,157.6 MB,114,157.6,,271.6,_Greenleaf,271.6
-1537609040,clear-digits,1739157063,cpp,Accepted,2 ms,8.5 MB,2,8.5,,10.5,_Greenleaf,10.5
-1543351706,power-of-two,1739574748,python3,Accepted,0 ms,17.9 MB,0,17.9,,17.9,Vigneshwar_RR,17.9
-1546794843,construct-smallest-number-from-di-string,1739837095,cpp,Accepted,58 ms,7.8 MB,58,7.8,,65.8,_Greenleaf,65.8
-1576444670,divide-array-into-equal-pairs,1742192350,cpp,Accepted,3 ms,18.1 MB,3,18.1,,21.1,_Greenleaf,21.1
-1604043298,missing-number,1744408653,python3,Accepted,0 ms,18.6 MB,0,18.6,,18.6,Vigneshwar_RR,18.6
-1616273070,average-time-of-process-per-machine,1745469691,postgresql,Accepted,157 ms,0.0B,157,0.0,,157.0,user2464b,157.0
-1616278533,employee-bonus,1745470100,postgresql,Accepted,319 ms,0.0B,319,0.0,,319.0,user2464b,319.0
-1619737349,students-and-examinations,1745794271,postgresql,Accepted,341 ms,0.0B,341,0.0,,341.0,user2464b,341.0
-1624462347,managers-with-at-least-5-direct-reports,1746282885,postgresql,Accepted,304 ms,0.0B,304,0.0,,304.0,user2464b,304.0
-1624490738,confirmation-rate,1746285424,postgresql,Accepted,232 ms,0.0B,232,0.0,,232.0,user2464b,232.0
-1635997466,next-permutation,1747449553,java,Accepted,0 ms,43.4 MB,0,43.4,,43.4,yashwanth1129,43.4
-1638814843,set-matrix-zeroes,1747706162,java,Accepted,1 ms,46 MB,1,46.0,,47.0,yashwanth1129,47.0
-1639836170,rotate-image,1747793369,java,Accepted,0 ms,42 MB,0,42.0,,42.0,yashwanth1129,42.0
-1642594010,subarray-sum-equals-k,1748054742,java,Accepted,24 ms,47 MB,24,47.0,,71.0,yashwanth1129,71.0
-1643542351,spiral-matrix,1748137140,java,Accepted,0 ms,41.4 MB,0,41.4,,41.4,yashwanth1129,41.4
-1644563219,majority-element-ii,1748228180,java,Accepted,3 ms,50.2 MB,3,50.2,,53.2,yashwanth1129,53.2
-1648463504,3sum,1748571944,java,Accepted,28 ms,51.8 MB,28,51.8,,79.8,yashwanth1129,79.8
-1649333843,4sum,1748655248,java,Accepted,16 ms,43.7 MB,16,43.7,,59.7,yashwanth1129,59.7
-1649387777,snakes-and-ladders,1748663884,cpp,Accepted,0 ms,17.7 MB,0,17.7,,17.7,_Greenleaf,17.7
-1650176496,merge-intervals,1748738202,java,Accepted,9 ms,46.7 MB,9,46.7,,55.7,yashwanth1129,55.7
-1652278589,merge-sorted-array,1748921012,java,Accepted,1 ms,42.5 MB,1,42.5,,43.5,yashwanth1129,43.5
-1652975561,random-pick-with-weight,1748974003,java,Accepted,28 ms,49.9 MB,28,49.9,,77.9,yashwanth1129,77.9
-1653192108,maximum-product-subarray,1748999871,java,Accepted,1 ms,44.7 MB,1,44.7,,45.7,yashwanth1129,45.7
-1665526771,remove-element,1750044965,java,Accepted,0 ms,41.8 MB,0,41.8,,41.8,yashwanth1129,41.8
-1667800290,maximize-sum-of-array-after-k-negations,1750218825,java,Accepted,5 ms,42.8 MB,5,42.8,,47.8,yashwanth1129,47.8
-1667815775,find-subsequence-of-length-k-with-the-largest-sum,1750220014,java,Accepted,8 ms,44.5 MB,8,44.5,,52.5,yashwanth1129,52.5
-1677643575,contains-duplicate,1750968050,python3,Accepted,16 ms,31.5 MB,16,31.5,,47.5,Vigneshwar_RR,47.5
-1691430535,trapping-rain-water,1752028256,java,Accepted,0 ms,46.3 MB,0,46.3,,46.3,yashwanth1129,46.3
-1693701511,longest-substring-without-repeating-characters,1752191896,java,Accepted,5 ms,44.9 MB,5,44.9,,49.9,yashwanth1129,49.9
-1693765843,max-consecutive-ones-iii,1752201547,java,Accepted,3 ms,46.6 MB,3,46.6,,49.6,yashwanth1129,49.6
-1694690180,fruit-into-baskets,1752268220,java,Accepted,51 ms,55.7 MB,51,55.7,,106.7,yashwanth1129,106.7
-1746895173,palindromic-substrings,1756056407,cpp,Accepted,0 ms,8.7 MB,0,8.7,,8.7,Jagath_kumar_reddy_k,8.7
-1747173751,decode-ways,1756081782,cpp,Accepted,0 ms,8.2 MB,0,8.2,,8.2,Jagath_kumar_reddy_k,8.2
-1748366823,combination-sum,1756170279,cpp,Accepted,3 ms,17.9 MB,3,17.9,,20.9,Jagath_kumar_reddy_k,20.9
-1749540294,coin-change,1756243201,cpp,Accepted,23 ms,17.9 MB,23,17.9,,40.9,Jagath_kumar_reddy_k,40.9
-1751760547,maximum-number-of-non-overlapping-palindrome-substrings,1756412070,cpp,Accepted,0 ms,9 MB,0,9.0,,9.0,Jagath_kumar_reddy_k,9.0
-1756561339,combination-sum-ii,1756785478,cpp,Accepted,3 ms,16 MB,3,16.0,,19.0,Jagath_kumar_reddy_k,19.0
-1757655158,maximum-product-subarray,1756861190,cpp,Accepted,1 ms,17.6 MB,1,17.6,,18.6,Jagath_kumar_reddy_k,18.6
-1758694928,permutations,1756932927,cpp,Accepted,0 ms,10.4 MB,0,10.4,,10.4,Jagath_kumar_reddy_k,10.4
-1758810433,subsets-ii,1756949281,cpp,Accepted,0 ms,10.6 MB,0,10.6,,10.6,Jagath_kumar_reddy_k,10.6
-1760934265,restore-finishing-order,1757110440,cpp,Accepted,0 ms,50.2 MB,0,50.2,,50.2,Jagath_kumar_reddy_k,50.2
-1761956997,recyclable-and-low-fat-products,1757197114,postgresql,Accepted,283 ms,0.0B,283,0.0,,283.0,user2464b,283.0
-1761972043,invalid-tweets,1757199284,postgresql,Accepted,337 ms,0.0B,337,0.0,,337.0,user2464b,337.0
-1763099005,word-break,1757277757,cpp,Accepted,0 ms,10.4 MB,0,10.4,,10.4,Jagath_kumar_reddy_k,10.4
-1764045415,replace-employee-id-with-the-unique-identifier,1757350696,postgresql,Accepted,462 ms,0.0B,462,0.0,,462.0,user2464b,462.0
-1764057912,product-sales-analysis-i,1757351241,postgresql,Accepted,1489 ms,0.0B,1489,0.0,,1489.0,user2464b,1489.0
-1764143783,customer-who-visited-but-did-not-make-any-transactions,1757354997,postgresql,Accepted,450 ms,0.0B,450,0.0,,450.0,user2464b,450.0
-1765170213,rising-temperature,1757436799,postgresql,Accepted,235 ms,0.0B,235,0.0,,235.0,user2464b,235.0
-1766611110,maximum-sum-with-at-most-k-elements,1757552841,cpp,Accepted,95 ms,107.9 MB,95,107.9,,202.9,Jagath_kumar_reddy_k,202.9
-1769696047,average-selling-price,1757787418,postgresql,Accepted,227 ms,0.0B,227,0.0,,227.0,user2464b,227.0
-1788519662,not-boring-movies,1759343061,postgresql,Accepted,185 ms,0.0B,185,0.0,,185.0,user2464b,185.0
-1800905598,unique-paths,1760408684,cpp,Accepted,1 ms,9.4 MB,1,9.4,,10.4,Jagath_kumar_reddy_k,10.4
-1802528683,longest-common-subsequence,1760542055,cpp,Accepted,39 ms,27.6 MB,39,27.6,,66.6,Jagath_kumar_reddy_k,66.6
-1804690488,best-time-to-buy-and-sell-stock-with-cooldown,1760760385,cpp,Accepted,0 ms,15 MB,0,15.0,,15.0,Jagath_kumar_reddy_k,15.0
-1804700323,coin-change-ii,1760761619,cpp,Accepted,165 ms,42 MB,165,42.0,,207.0,Jagath_kumar_reddy_k,207.0
-1809026532,target-sum,1761186218,cpp,Accepted,30 ms,26 MB,30,26.0,,56.0,Jagath_kumar_reddy_k,56.0
-1810672130,valid-anagram,1761335784,python3,Accepted,8 ms,17.9 MB,8,17.9,,25.9,Vigneshwar_RR,25.9
-1810688695,best-time-to-buy-and-sell-stock,1761337698,python3,Accepted,27 ms,27 MB,27,27.0,,54.0,Vigneshwar_RR,54.0
-1813678172,interleaving-string,1761624418,cpp,Accepted,5 ms,9 MB,5,9.0,,14.0,Jagath_kumar_reddy_k,14.0
-1817151011,longest-palindromic-substring,1761939585,python3,Accepted,363 ms,18 MB,363,18.0,,381.0,madhavan02,381.0
-1817167324,palindromic-substrings,1761941443,python3,Accepted,124 ms,17.4 MB,124,17.4,,141.4,madhavan02,141.4
-1817939231,decode-ways,1762021121,python3,Accepted,0 ms,17.7 MB,0,17.7,,17.7,madhavan02,17.7
-1817984312,coin-change,1762024524,python3,Accepted,740 ms,18.1 MB,740,18.1,,758.1,madhavan02,758.1
-1818128687,maximum-product-subarray,1762044489,python3,Accepted,10 ms,18.5 MB,10,18.5,,28.5,madhavan02,28.5
-1819022073,regular-expression-matching,1762122123,cpp,Accepted,3 ms,9.1 MB,3,9.1,,12.1,Jagath_kumar_reddy_k,12.1
-1819031133,word-break,1762123466,python3,Accepted,4 ms,17.9 MB,4,17.9,,21.9,madhavan02,21.9
-1819037863,longest-increasing-subsequence,1762124454,python3,Accepted,1782 ms,17.8 MB,1782,17.8,,1799.8,madhavan02,1799.8
-1819054824,kth-largest-element-in-a-stream,1762127162,cpp,Accepted,0 ms,33 MB,0,33.0,,33.0,Jagath_kumar_reddy_k,33.0
-1820110803,unique-paths,1762223535,python3,Accepted,3 ms,17.8 MB,3,17.8,,20.8,madhavan02,20.8
-1820131686,longest-common-subsequence,1762225997,python3,Accepted,459 ms,42.9 MB,459,42.9,,501.9,madhavan02,501.9
-1820624709,best-time-to-buy-and-sell-stock-with-cooldown,1762269201,python3,Accepted,0 ms,18.2 MB,0,18.2,,18.2,madhavan02,18.2
-1820974898,coin-change-ii,1762297503,python3,Accepted,187 ms,17.8 MB,187,17.8,,204.8,madhavan02,204.8
-1823371479,squares-of-a-sorted-array,1762528882,python3,Accepted,7 ms,19.3 MB,7,19.3,,26.3,madhavan02,26.3
-1823493489,remove-duplicates-from-sorted-list,1762537836,python3,Accepted,0 ms,17.7 MB,0,17.7,,17.7,madhavan02,17.7
-1823601593,two-sum-ii-input-array-is-sorted,1762547997,python3,Accepted,0 ms,18.5 MB,0,18.5,,18.5,madhavan02,18.5
-1823609770,container-with-most-water,1762549093,python3,Accepted,35 ms,28.4 MB,35,28.4,,63.4,madhavan02,63.4
-1823628459,reverse-linked-list,1762551773,python3,Accepted,0 ms,18.5 MB,0,18.5,,18.5,madhavan02,18.5
-1824567270,interleaving-string,1762647503,python3,Accepted,52 ms,17.9 MB,52,17.9,,69.9,madhavan02,69.9
-939811863,add-digits,1682476232,python,Accepted,17 ms,13.3 MB,17,13.3,,30.3,Vigneshwar_RR,30.3
-941963384,container-with-most-water,1682834793,python,Accepted,562 ms,23.9 MB,562,23.9,,585.9,Vigneshwar_RR,585.9
-941974304,letter-combinations-of-a-phone-number,1682836469,python,Accepted,11 ms,13.5 MB,11,13.5,,24.5,Vigneshwar_RR,24.5
-942468361,search-insert-position,1682923452,python,Accepted,36 ms,14 MB,36,14.0,,50.0,Vigneshwar_RR,50.0
-942488298,valid-sudoku,1682926188,python,Accepted,71 ms,13.5 MB,71,13.5,,84.5,Vigneshwar_RR,84.5
-942627264,generate-parentheses,1682946563,python,Accepted,15 ms,13.8 MB,15,13.8,,28.8,Vigneshwar_RR,28.8
-943329928,combination-sum,1683045286,python,Accepted,42 ms,13.3 MB,42,13.3,,55.3,Vigneshwar_RR,55.3
-943334160,sign-of-the-product-of-an-array,1683045716,python,Accepted,47 ms,13.5 MB,47,13.5,,60.5,Vigneshwar_RR,60.5
-943769548,find-the-difference-of-two-arrays,1683113527,python,Accepted,146 ms,13.7 MB,146,13.7,,159.7,Vigneshwar_RR,159.7
-943774870,reverse-integer,1683114420,python,Accepted,16 ms,13.2 MB,16,13.2,,29.2,Vigneshwar_RR,29.2
-946416556,matrix-diagonal-sum,1683521958,python,Accepted,80 ms,13.6 MB,80,13.6,,93.6,Vigneshwar_RR,93.6
-946428296,strictly-palindromic-number,1683523567,python,Accepted,21 ms,16.6 MB,21,16.6,,37.6,Vigneshwar_RR,37.6
-947940732,spiral-matrix,1683736517,python,Accepted,21 ms,13.3 MB,21,13.3,,34.3,Vigneshwar_RR,34.3
-953200203,find-the-index-of-the-first-occurrence-in-a-string,1684480852,python,Accepted,17 ms,13.5 MB,17,13.5,,30.5,Vigneshwar_RR,30.5
-Jagath_kumar_reddy_k,best-time-to-buy-and-sell-stock-with-cooldown,1760760385,cpp,Accepted,0 ms,15 MB,0,15.0,,15.0,,15.0
-Jagath_kumar_reddy_k,coin-change,1756243201,cpp,Accepted,23 ms,17.9 MB,23,17.9,,40.9,,40.9
-Jagath_kumar_reddy_k,coin-change-ii,1760761619,cpp,Accepted,165 ms,42 MB,165,42.0,,207.0,,207.0
-Jagath_kumar_reddy_k,combination-sum,1756170279,cpp,Accepted,3 ms,17.9 MB,3,17.9,,20.9,,20.9
-Jagath_kumar_reddy_k,combination-sum-ii,1756785478,cpp,Accepted,3 ms,16 MB,3,16.0,,19.0,,19.0
-Jagath_kumar_reddy_k,decode-ways,1756081782,cpp,Accepted,0 ms,8.2 MB,0,8.2,,8.2,,8.2
-Jagath_kumar_reddy_k,interleaving-string,1761624418,cpp,Accepted,5 ms,9 MB,5,9.0,,14.0,,14.0
-Jagath_kumar_reddy_k,kth-largest-element-in-a-stream,1762127162,cpp,Accepted,0 ms,33 MB,0,33.0,,33.0,,33.0
-Jagath_kumar_reddy_k,longest-common-subsequence,1760542055,cpp,Accepted,39 ms,27.6 MB,39,27.6,,66.6,,66.6
-Jagath_kumar_reddy_k,maximum-number-of-non-overlapping-palindrome-substrings,1756412070,cpp,Accepted,0 ms,9 MB,0,9.0,,9.0,,9.0
-Jagath_kumar_reddy_k,maximum-product-subarray,1756861190,cpp,Accepted,1 ms,17.6 MB,1,17.6,,18.6,,18.6
-Jagath_kumar_reddy_k,maximum-sum-with-at-most-k-elements,1757552841,cpp,Accepted,95 ms,107.9 MB,95,107.9,,202.9,,202.9
-Jagath_kumar_reddy_k,palindromic-substrings,1756056407,cpp,Accepted,0 ms,8.7 MB,0,8.7,,8.7,,8.7
-Jagath_kumar_reddy_k,permutations,1756932927,cpp,Accepted,0 ms,10.4 MB,0,10.4,,10.4,,10.4
-Jagath_kumar_reddy_k,regular-expression-matching,1762122123,cpp,Accepted,3 ms,9.1 MB,3,9.1,,12.1,,12.1
-Jagath_kumar_reddy_k,restore-finishing-order,1757110440,cpp,Accepted,0 ms,50.2 MB,0,50.2,,50.2,,50.2
-Jagath_kumar_reddy_k,subsets-ii,1756949281,cpp,Accepted,0 ms,10.6 MB,0,10.6,,10.6,,10.6
-Jagath_kumar_reddy_k,target-sum,1761186218,cpp,Accepted,30 ms,26 MB,30,26.0,,56.0,,56.0
-Jagath_kumar_reddy_k,unique-paths,1760408684,cpp,Accepted,1 ms,9.4 MB,1,9.4,,10.4,,10.4
-Jagath_kumar_reddy_k,word-break,1757277757,cpp,Accepted,0 ms,10.4 MB,0,10.4,,10.4,,10.4
-Vigneshwar_RR,add-digits,1682476232,python,Accepted,17 ms,13.3 MB,17,13.3,,30.3,,30.3
-Vigneshwar_RR,best-time-to-buy-and-sell-stock,1761337698,python3,Accepted,27 ms,27 MB,27,27.0,,54.0,,54.0
-Vigneshwar_RR,combination-sum,1683045286,python,Accepted,42 ms,13.3 MB,42,13.3,,55.3,,55.3
-Vigneshwar_RR,container-with-most-water,1682834793,python,Accepted,562 ms,23.9 MB,562,23.9,,585.9,,585.9
-Vigneshwar_RR,contains-duplicate,1750968050,python3,Accepted,16 ms,31.5 MB,16,31.5,,47.5,,47.5
-Vigneshwar_RR,find-the-difference-of-two-arrays,1683113527,python,Accepted,146 ms,13.7 MB,146,13.7,,159.7,,159.7
-Vigneshwar_RR,find-the-index-of-the-first-occurrence-in-a-string,1684480852,python,Accepted,17 ms,13.5 MB,17,13.5,,30.5,,30.5
-Vigneshwar_RR,generate-parentheses,1682946563,python,Accepted,15 ms,13.8 MB,15,13.8,,28.8,,28.8
-Vigneshwar_RR,letter-combinations-of-a-phone-number,1682836469,python,Accepted,11 ms,13.5 MB,11,13.5,,24.5,,24.5
-Vigneshwar_RR,matrix-diagonal-sum,1683521958,python,Accepted,80 ms,13.6 MB,80,13.6,,93.6,,93.6
-Vigneshwar_RR,missing-number,1744408653,python3,Accepted,0 ms,18.6 MB,0,18.6,,18.6,,18.6
-Vigneshwar_RR,power-of-two,1739574748,python3,Accepted,0 ms,17.9 MB,0,17.9,,17.9,,17.9
-Vigneshwar_RR,reverse-integer,1683114420,python,Accepted,16 ms,13.2 MB,16,13.2,,29.2,,29.2
-Vigneshwar_RR,search-insert-position,1682923452,python,Accepted,36 ms,14 MB,36,14.0,,50.0,,50.0
-Vigneshwar_RR,sign-of-the-product-of-an-array,1683045716,python,Accepted,47 ms,13.5 MB,47,13.5,,60.5,,60.5
-Vigneshwar_RR,sort-vowels-in-a-string,1699847768,python3,Accepted,148 ms,24.3 MB,148,24.3,,172.3,,172.3
-Vigneshwar_RR,spiral-matrix,1683736517,python,Accepted,21 ms,13.3 MB,21,13.3,,34.3,,34.3
-Vigneshwar_RR,strictly-palindromic-number,1683523567,python,Accepted,21 ms,16.6 MB,21,16.6,,37.6,,37.6
-Vigneshwar_RR,valid-anagram,1761335784,python3,Accepted,8 ms,17.9 MB,8,17.9,,25.9,,25.9
-Vigneshwar_RR,valid-sudoku,1682926188,python,Accepted,71 ms,13.5 MB,71,13.5,,84.5,,84.5
-_greenleaf,check-if-array-is-sorted-and-rotated,1738529984,cpp,Accepted,0 ms,11.2 MB,0,11.2,,,,11.2
-_greenleaf,check-if-one-string-swap-can-make-strings-equal,1738727615,cpp,Accepted,0 ms,8.2 MB,0,8.2,,,,8.2
-_greenleaf,circular-sentence,1730591945,cpp,Accepted,0 ms,8.3 MB,0,8.3,,,,8.3
-_greenleaf,clear-digits,1739157063,cpp,Accepted,2 ms,8.5 MB,2,8.5,,,,10.5
-_greenleaf,construct-smallest-number-from-di-string,1739837095,cpp,Accepted,58 ms,7.8 MB,58,7.8,,,,65.8
-_greenleaf,count-the-number-of-fair-pairs,1731470549,cpp,Accepted,64 ms,60.3 MB,64,60.3,,,,124.3
-_greenleaf,count-vowel-strings-in-ranges,1735789888,cpp,Accepted,4 ms,69.8 MB,4,69.8,,,,73.8
-_greenleaf,delete-characters-to-make-fancy-string,1730428795,cpp,Accepted,22 ms,42.8 MB,22,42.8,,,,64.8
-_greenleaf,divide-array-into-equal-pairs,1742192350,cpp,Accepted,3 ms,18.1 MB,3,18.1,,,,21.1
-_greenleaf,divide-players-into-teams-of-equal-skill,1730664127,cpp,Accepted,23 ms,56.3 MB,23,56.3,,,,79.3
-_greenleaf,find-the-number-of-distinct-colors-among-the-balls,1738907693,cpp,Accepted,114 ms,157.6 MB,114,157.6,,,,271.6
-_greenleaf,maximum-sum-of-distinct-subarrays-with-length-k,1731983227,cpp,Accepted,246 ms,105.3 MB,246,105.3,,,,351.3
-_greenleaf,minimum-add-to-make-parentheses-valid,1728444317,cpp,Accepted,3 ms,7.7 MB,3,7.7,,,,10.7
-_greenleaf,minimum-string-length-after-removing-substrings,1728269478,cpp,Accepted,7 ms,11.4 MB,7,11.4,,,,18.4
-_greenleaf,permutation-in-string,1728147470,cpp,Accepted,3 ms,8.8 MB,3,8.8,,,,11.8
-_greenleaf,rank-transform-of-an-array,1727836286,cpp,Accepted,73 ms,44.5 MB,73,44.5,,,,117.5
-_greenleaf,rotate-string,1730603546,cpp,Accepted,0 ms,7.5 MB,0,7.5,,,,7.5
-_greenleaf,separate-black-and-white-balls,1728968331,cpp,Accepted,30 ms,15.5 MB,30,15.5,,,,45.5
-_greenleaf,snakes-and-ladders,1748663884,cpp,Accepted,0 ms,17.7 MB,0,17.7,,,,17.7
-_greenleaf,special-array-i,1738383166,cpp,Accepted,0 ms,27.7 MB,0,27.7,,,,27.7
-madhavan02,best-time-to-buy-and-sell-stock-with-cooldown,1762269201,python3,Accepted,0 ms,18.2 MB,0,18.2,,18.2,,18.2
-madhavan02,coin-change,1762024524,python3,Accepted,740 ms,18.1 MB,740,18.1,,758.1,,758.1
-madhavan02,coin-change-ii,1762297503,python3,Accepted,187 ms,17.8 MB,187,17.8,,204.8,,204.8
-madhavan02,container-with-most-water,1762549093,python3,Accepted,35 ms,28.4 MB,35,28.4,,63.4,,63.4
-madhavan02,decode-ways,1762021121,python3,Accepted,0 ms,17.7 MB,0,17.7,,17.7,,17.7
-madhavan02,interleaving-string,1762647503,python3,Accepted,52 ms,17.9 MB,52,17.9,,69.9,,69.9
-madhavan02,longest-common-subsequence,1762225997,python3,Accepted,459 ms,42.9 MB,459,42.9,,501.9,,501.9
-madhavan02,longest-increasing-subsequence,1762124454,python3,Accepted,1782 ms,17.8 MB,1782,17.8,,1799.8,,1799.8
-madhavan02,longest-palindromic-substring,1761939585,python3,Accepted,363 ms,18 MB,363,18.0,,381.0,,381.0
-madhavan02,maximum-product-subarray,1762044489,python3,Accepted,10 ms,18.5 MB,10,18.5,,28.5,,28.5
-madhavan02,palindromic-substrings,1761941443,python3,Accepted,124 ms,17.4 MB,124,17.4,,141.4,,141.4
-madhavan02,remove-duplicates-from-sorted-list,1762537836,python3,Accepted,0 ms,17.7 MB,0,17.7,,17.7,,17.7
-madhavan02,reverse-linked-list,1762551773,python3,Accepted,0 ms,18.5 MB,0,18.5,,18.5,,18.5
-madhavan02,squares-of-a-sorted-array,1762528882,python3,Accepted,7 ms,19.3 MB,7,19.3,,26.3,,26.3
-madhavan02,two-sum-ii-input-array-is-sorted,1762547997,python3,Accepted,0 ms,18.5 MB,0,18.5,,18.5,,18.5
-madhavan02,unique-paths,1762223535,python3,Accepted,3 ms,17.8 MB,3,17.8,,20.8,,20.8
-madhavan02,word-break,1762123466,python3,Accepted,4 ms,17.9 MB,4,17.9,,21.9,,21.9
-user2464b,average-selling-price,1757787418,postgresql,Accepted,227 ms,0.0B,227,0.0,,227.0,,227.0
-user2464b,average-time-of-process-per-machine,1745469691,postgresql,Accepted,157 ms,0.0B,157,0.0,,157.0,,157.0
-user2464b,confirmation-rate,1746285424,postgresql,Accepted,232 ms,0.0B,232,0.0,,232.0,,232.0
-user2464b,customer-who-visited-but-did-not-make-any-transactions,1757354997,postgresql,Accepted,450 ms,0.0B,450,0.0,,450.0,,450.0
-user2464b,employee-bonus,1745470100,postgresql,Accepted,319 ms,0.0B,319,0.0,,319.0,,319.0
-user2464b,invalid-tweets,1757199284,postgresql,Accepted,337 ms,0.0B,337,0.0,,337.0,,337.0
-user2464b,managers-with-at-least-5-direct-reports,1746282885,postgresql,Accepted,304 ms,0.0B,304,0.0,,304.0,,304.0
-user2464b,not-boring-movies,1759343061,postgresql,Accepted,185 ms,0.0B,185,0.0,,185.0,,185.0
-user2464b,product-sales-analysis-i,1757351241,postgresql,Accepted,1489 ms,0.0B,1489,0.0,,1489.0,,1489.0
-user2464b,recyclable-and-low-fat-products,1757197114,postgresql,Accepted,283 ms,0.0B,283,0.0,,283.0,,283.0
-user2464b,replace-employee-id-with-the-unique-identifier,1757350696,postgresql,Accepted,462 ms,0.0B,462,0.0,,462.0,,462.0
-user2464b,rising-temperature,1757436799,postgresql,Accepted,235 ms,0.0B,235,0.0,,235.0,,235.0
-user2464b,students-and-examinations,1745794271,postgresql,Accepted,341 ms,0.0B,341,0.0,,341.0,,341.0
-yashwanth1129,3sum,1748571944,java,Accepted,28 ms,51.8 MB,28,51.8,,79.8,,79.8
-yashwanth1129,4sum,1748655248,java,Accepted,16 ms,43.7 MB,16,43.7,,59.7,,59.7
-yashwanth1129,find-subsequence-of-length-k-with-the-largest-sum,1750220014,java,Accepted,8 ms,44.5 MB,8,44.5,,52.5,,52.5
-yashwanth1129,fruit-into-baskets,1752268220,java,Accepted,51 ms,55.7 MB,51,55.7,,106.7,,106.7
-yashwanth1129,longest-substring-without-repeating-characters,1752191896,java,Accepted,5 ms,44.9 MB,5,44.9,,49.9,,49.9
-yashwanth1129,majority-element-ii,1748228180,java,Accepted,3 ms,50.2 MB,3,50.2,,53.2,,53.2
-yashwanth1129,max-consecutive-ones-iii,1752201547,java,Accepted,3 ms,46.6 MB,3,46.6,,49.6,,49.6
-yashwanth1129,maximize-sum-of-array-after-k-negations,1750218825,java,Accepted,5 ms,42.8 MB,5,42.8,,47.8,,47.8
-yashwanth1129,maximum-product-subarray,1748999871,java,Accepted,1 ms,44.7 MB,1,44.7,,45.7,,45.7
-yashwanth1129,merge-intervals,1748738202,java,Accepted,9 ms,46.7 MB,9,46.7,,55.7,,55.7
-yashwanth1129,merge-sorted-array,1748921012,java,Accepted,1 ms,42.5 MB,1,42.5,,43.5,,43.5
-yashwanth1129,next-permutation,1747449553,java,Accepted,0 ms,43.4 MB,0,43.4,,43.4,,43.4
-yashwanth1129,random-pick-with-weight,1748974003,java,Accepted,28 ms,49.9 MB,28,49.9,,77.9,,77.9
-yashwanth1129,remove-element,1750044965,java,Accepted,0 ms,41.8 MB,0,41.8,,41.8,,41.8
-yashwanth1129,rotate-image,1747793369,java,Accepted,0 ms,42 MB,0,42.0,,42.0,,42.0
-yashwanth1129,set-matrix-zeroes,1747706162,java,Accepted,1 ms,46 MB,1,46.0,,47.0,,47.0
-yashwanth1129,spiral-matrix,1748137140,java,Accepted,0 ms,41.4 MB,0,41.4,,41.4,,41.4
-yashwanth1129,subarray-sum-equals-k,1748054742,java,Accepted,24 ms,47 MB,24,47.0,,71.0,,71.0
-yashwanth1129,trapping-rain-water,1752028256,java,Accepted,0 ms,46.3 MB,0,46.3,,46.3,,46.3
+titleSlug,timestamp,lang,statusDisplay,runtime,memory,id,runtime_val,memory_val,weekly_points
+best-time-to-buy-and-sell-stock-with-cooldown,1760760385,cpp,Accepted,0 ms,15 MB,Jagath_kumar_reddy_k,0,15.0,15.0
+coin-change,1756243201,cpp,Accepted,23 ms,17.9 MB,Jagath_kumar_reddy_k,23,17.9,40.9
+coin-change-ii,1760761619,cpp,Accepted,165 ms,42 MB,Jagath_kumar_reddy_k,165,42.0,207.0
+combination-sum,1756170279,cpp,Accepted,3 ms,17.9 MB,Jagath_kumar_reddy_k,3,17.9,20.9
+combination-sum-ii,1756785478,cpp,Accepted,3 ms,16 MB,Jagath_kumar_reddy_k,3,16.0,19.0
+decode-ways,1756081782,cpp,Accepted,0 ms,8.2 MB,Jagath_kumar_reddy_k,0,8.2,8.2
+interleaving-string,1761624418,cpp,Accepted,5 ms,9 MB,Jagath_kumar_reddy_k,5,9.0,14.0
+kth-largest-element-in-a-stream,1762127162,cpp,Accepted,0 ms,33 MB,Jagath_kumar_reddy_k,0,33.0,33.0
+longest-common-subsequence,1760542055,cpp,Accepted,39 ms,27.6 MB,Jagath_kumar_reddy_k,39,27.6,66.6
+maximum-number-of-non-overlapping-palindrome-substrings,1756412070,cpp,Accepted,0 ms,9 MB,Jagath_kumar_reddy_k,0,9.0,9.0
+maximum-product-subarray,1756861190,cpp,Accepted,1 ms,17.6 MB,Jagath_kumar_reddy_k,1,17.6,18.6
+maximum-sum-with-at-most-k-elements,1757552841,cpp,Accepted,95 ms,107.9 MB,Jagath_kumar_reddy_k,95,107.9,202.9
+palindromic-substrings,1756056407,cpp,Accepted,0 ms,8.7 MB,Jagath_kumar_reddy_k,0,8.7,8.7
+permutations,1756932927,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0,10.4,10.4
+regular-expression-matching,1762122123,cpp,Accepted,3 ms,9.1 MB,Jagath_kumar_reddy_k,3,9.1,12.1
+restore-finishing-order,1757110440,cpp,Accepted,0 ms,50.2 MB,Jagath_kumar_reddy_k,0,50.2,50.2
+subsets-ii,1756949281,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0,10.6,10.6
+target-sum,1761186218,cpp,Accepted,30 ms,26 MB,Jagath_kumar_reddy_k,30,26.0,56.0
+unique-paths,1760408684,cpp,Accepted,1 ms,9.4 MB,Jagath_kumar_reddy_k,1,9.4,10.4
+word-break,1757277757,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0,10.4,10.4
+add-digits,1682476232,python,Accepted,17 ms,13.3 MB,Vigneshwar_RR,17,13.3,30.3
+best-time-to-buy-and-sell-stock,1761337698,python3,Accepted,27 ms,27 MB,Vigneshwar_RR,27,27.0,54.0
+combination-sum,1683045286,python,Accepted,42 ms,13.3 MB,Vigneshwar_RR,42,13.3,55.3
+container-with-most-water,1682834793,python,Accepted,562 ms,23.9 MB,Vigneshwar_RR,562,23.9,585.9
+contains-duplicate,1750968050,python3,Accepted,16 ms,31.5 MB,Vigneshwar_RR,16,31.5,47.5
+find-the-difference-of-two-arrays,1683113527,python,Accepted,146 ms,13.7 MB,Vigneshwar_RR,146,13.7,159.7
+find-the-index-of-the-first-occurrence-in-a-string,1684480852,python,Accepted,17 ms,13.5 MB,Vigneshwar_RR,17,13.5,30.5
+generate-parentheses,1682946563,python,Accepted,15 ms,13.8 MB,Vigneshwar_RR,15,13.8,28.8
+letter-combinations-of-a-phone-number,1682836469,python,Accepted,11 ms,13.5 MB,Vigneshwar_RR,11,13.5,24.5
+matrix-diagonal-sum,1683521958,python,Accepted,80 ms,13.6 MB,Vigneshwar_RR,80,13.6,93.6
+missing-number,1744408653,python3,Accepted,0 ms,18.6 MB,Vigneshwar_RR,0,18.6,18.6
+power-of-two,1739574748,python3,Accepted,0 ms,17.9 MB,Vigneshwar_RR,0,17.9,17.9
+reverse-integer,1683114420,python,Accepted,16 ms,13.2 MB,Vigneshwar_RR,16,13.2,29.2
+search-insert-position,1682923452,python,Accepted,36 ms,14 MB,Vigneshwar_RR,36,14.0,50.0
+sign-of-the-product-of-an-array,1683045716,python,Accepted,47 ms,13.5 MB,Vigneshwar_RR,47,13.5,60.5
+sort-vowels-in-a-string,1699847768,python3,Accepted,148 ms,24.3 MB,Vigneshwar_RR,148,24.3,172.3
+spiral-matrix,1683736517,python,Accepted,21 ms,13.3 MB,Vigneshwar_RR,21,13.3,34.3
+strictly-palindromic-number,1683523567,python,Accepted,21 ms,16.6 MB,Vigneshwar_RR,21,16.6,37.6
+valid-anagram,1761335784,python3,Accepted,8 ms,17.9 MB,Vigneshwar_RR,8,17.9,25.9
+valid-sudoku,1682926188,python,Accepted,71 ms,13.5 MB,Vigneshwar_RR,71,13.5,84.5
+check-if-array-is-sorted-and-rotated,1738529984,cpp,Accepted,0 ms,11.2 MB,_greenleaf,0,11.2,11.2
+check-if-one-string-swap-can-make-strings-equal,1738727615,cpp,Accepted,0 ms,8.2 MB,_greenleaf,0,8.2,8.2
+circular-sentence,1730591945,cpp,Accepted,0 ms,8.3 MB,_greenleaf,0,8.3,8.3
+clear-digits,1739157063,cpp,Accepted,2 ms,8.5 MB,_greenleaf,2,8.5,10.5
+construct-smallest-number-from-di-string,1739837095,cpp,Accepted,58 ms,7.8 MB,_greenleaf,58,7.8,65.8
+count-the-number-of-fair-pairs,1731470549,cpp,Accepted,64 ms,60.3 MB,_greenleaf,64,60.3,124.3
+count-vowel-strings-in-ranges,1735789888,cpp,Accepted,4 ms,69.8 MB,_greenleaf,4,69.8,73.8
+delete-characters-to-make-fancy-string,1730428795,cpp,Accepted,22 ms,42.8 MB,_greenleaf,22,42.8,64.8
+divide-array-into-equal-pairs,1742192350,cpp,Accepted,3 ms,18.1 MB,_greenleaf,3,18.1,21.1
+divide-players-into-teams-of-equal-skill,1730664127,cpp,Accepted,23 ms,56.3 MB,_greenleaf,23,56.3,79.3
+find-the-number-of-distinct-colors-among-the-balls,1738907693,cpp,Accepted,114 ms,157.6 MB,_greenleaf,114,157.6,271.6
+maximum-sum-of-distinct-subarrays-with-length-k,1731983227,cpp,Accepted,246 ms,105.3 MB,_greenleaf,246,105.3,351.3
+minimum-add-to-make-parentheses-valid,1728444317,cpp,Accepted,3 ms,7.7 MB,_greenleaf,3,7.7,10.7
+minimum-string-length-after-removing-substrings,1728269478,cpp,Accepted,7 ms,11.4 MB,_greenleaf,7,11.4,18.4
+permutation-in-string,1728147470,cpp,Accepted,3 ms,8.8 MB,_greenleaf,3,8.8,11.8
+rank-transform-of-an-array,1727836286,cpp,Accepted,73 ms,44.5 MB,_greenleaf,73,44.5,117.5
+rotate-string,1730603546,cpp,Accepted,0 ms,7.5 MB,_greenleaf,0,7.5,7.5
+separate-black-and-white-balls,1728968331,cpp,Accepted,30 ms,15.5 MB,_greenleaf,30,15.5,45.5
+snakes-and-ladders,1748663884,cpp,Accepted,0 ms,17.7 MB,_greenleaf,0,17.7,17.7
+special-array-i,1738383166,cpp,Accepted,0 ms,27.7 MB,_greenleaf,0,27.7,27.7
+best-time-to-buy-and-sell-stock-with-cooldown,1762269201,python3,Accepted,0 ms,18.2 MB,madhavan02,0,18.2,18.2
+coin-change,1762024524,python3,Accepted,740 ms,18.1 MB,madhavan02,740,18.1,758.1
+coin-change-ii,1762297503,python3,Accepted,187 ms,17.8 MB,madhavan02,187,17.8,204.8
+container-with-most-water,1762549093,python3,Accepted,35 ms,28.4 MB,madhavan02,35,28.4,63.4
+decode-ways,1762021121,python3,Accepted,0 ms,17.7 MB,madhavan02,0,17.7,17.7
+interleaving-string,1762647503,python3,Accepted,52 ms,17.9 MB,madhavan02,52,17.9,69.9
+longest-common-subsequence,1762225997,python3,Accepted,459 ms,42.9 MB,madhavan02,459,42.9,501.9
+longest-increasing-subsequence,1762124454,python3,Accepted,1782 ms,17.8 MB,madhavan02,1782,17.8,1799.8
+longest-palindromic-substring,1761939585,python3,Accepted,363 ms,18 MB,madhavan02,363,18.0,381.0
+maximum-product-subarray,1762044489,python3,Accepted,10 ms,18.5 MB,madhavan02,10,18.5,28.5
+palindromic-substrings,1761941443,python3,Accepted,124 ms,17.4 MB,madhavan02,124,17.4,141.4
+remove-duplicates-from-sorted-list,1762537836,python3,Accepted,0 ms,17.7 MB,madhavan02,0,17.7,17.7
+reverse-linked-list,1762551773,python3,Accepted,0 ms,18.5 MB,madhavan02,0,18.5,18.5
+squares-of-a-sorted-array,1762528882,python3,Accepted,7 ms,19.3 MB,madhavan02,7,19.3,26.3
+two-sum-ii-input-array-is-sorted,1762547997,python3,Accepted,0 ms,18.5 MB,madhavan02,0,18.5,18.5
+unique-paths,1762223535,python3,Accepted,3 ms,17.8 MB,madhavan02,3,17.8,20.8
+word-break,1762123466,python3,Accepted,4 ms,17.9 MB,madhavan02,4,17.9,21.9
+average-selling-price,1757787418,postgresql,Accepted,227 ms,0.0B,user2464b,227,0.0,227.0
+average-time-of-process-per-machine,1745469691,postgresql,Accepted,157 ms,0.0B,user2464b,157,0.0,157.0
+confirmation-rate,1746285424,postgresql,Accepted,232 ms,0.0B,user2464b,232,0.0,232.0
+customer-who-visited-but-did-not-make-any-transactions,1757354997,postgresql,Accepted,450 ms,0.0B,user2464b,450,0.0,450.0
+employee-bonus,1745470100,postgresql,Accepted,319 ms,0.0B,user2464b,319,0.0,319.0
+invalid-tweets,1757199284,postgresql,Accepted,337 ms,0.0B,user2464b,337,0.0,337.0
+managers-with-at-least-5-direct-reports,1746282885,postgresql,Accepted,304 ms,0.0B,user2464b,304,0.0,304.0
+not-boring-movies,1759343061,postgresql,Accepted,185 ms,0.0B,user2464b,185,0.0,185.0
+product-sales-analysis-i,1757351241,postgresql,Accepted,1489 ms,0.0B,user2464b,1489,0.0,1489.0
+recyclable-and-low-fat-products,1757197114,postgresql,Accepted,283 ms,0.0B,user2464b,283,0.0,283.0
+replace-employee-id-with-the-unique-identifier,1757350696,postgresql,Accepted,462 ms,0.0B,user2464b,462,0.0,462.0
+rising-temperature,1757436799,postgresql,Accepted,235 ms,0.0B,user2464b,235,0.0,235.0
+students-and-examinations,1745794271,postgresql,Accepted,341 ms,0.0B,user2464b,341,0.0,341.0
+3sum,1748571944,java,Accepted,28 ms,51.8 MB,yashwanth1129,28,51.8,79.8
+4sum,1748655248,java,Accepted,16 ms,43.7 MB,yashwanth1129,16,43.7,59.7
+find-subsequence-of-length-k-with-the-largest-sum,1750220014,java,Accepted,8 ms,44.5 MB,yashwanth1129,8,44.5,52.5
+fruit-into-baskets,1752268220,java,Accepted,51 ms,55.7 MB,yashwanth1129,51,55.7,106.7
+longest-substring-without-repeating-characters,1752191896,java,Accepted,5 ms,44.9 MB,yashwanth1129,5,44.9,49.9
+majority-element-ii,1748228180,java,Accepted,3 ms,50.2 MB,yashwanth1129,3,50.2,53.2
+max-consecutive-ones-iii,1752201547,java,Accepted,3 ms,46.6 MB,yashwanth1129,3,46.6,49.6
+maximize-sum-of-array-after-k-negations,1750218825,java,Accepted,5 ms,42.8 MB,yashwanth1129,5,42.8,47.8
+maximum-product-subarray,1748999871,java,Accepted,1 ms,44.7 MB,yashwanth1129,1,44.7,45.7
+merge-intervals,1748738202,java,Accepted,9 ms,46.7 MB,yashwanth1129,9,46.7,55.7
+merge-sorted-array,1748921012,java,Accepted,1 ms,42.5 MB,yashwanth1129,1,42.5,43.5
+next-permutation,1747449553,java,Accepted,0 ms,43.4 MB,yashwanth1129,0,43.4,43.4
+random-pick-with-weight,1748974003,java,Accepted,28 ms,49.9 MB,yashwanth1129,28,49.9,77.9
+remove-element,1750044965,java,Accepted,0 ms,41.8 MB,yashwanth1129,0,41.8,41.8
+rotate-image,1747793369,java,Accepted,0 ms,42 MB,yashwanth1129,0,42.0,42.0
+set-matrix-zeroes,1747706162,java,Accepted,1 ms,46 MB,yashwanth1129,1,46.0,47.0
+spiral-matrix,1748137140,java,Accepted,0 ms,41.4 MB,yashwanth1129,0,41.4,41.4
+subarray-sum-equals-k,1748054742,java,Accepted,24 ms,47 MB,yashwanth1129,24,47.0,71.0
+trapping-rain-water,1752028256,java,Accepted,0 ms,46.3 MB,yashwanth1129,0,46.3,46.3
