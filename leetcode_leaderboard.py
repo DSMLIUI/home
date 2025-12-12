@@ -174,7 +174,7 @@ def main():
     df_result = df_result.merge(df_overall_rank_new, on='id', how='left')
     df_result['overall_rank'] = df_result['overall_points'].rank(method='min').astype(int)
 
-    df_result['overall_change'] = (df_result['overall_points'] - df_result['overall_points_old']).fillna(0).astype(int)
+    df_result['overall_change'] = (df_result['overall_points_old'] - df_result['overall_points']).fillna(0).astype(int)
 
     df_result = df_result[['overall_rank', 'weekly_rank', 'id', 'weekly_points', 'weekly_change', 'overall_points', 'overall_change', 'name', 'linkedin_url']]  
 
