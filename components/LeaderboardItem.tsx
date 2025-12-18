@@ -17,7 +17,7 @@ const getMedal = (rank: string) => {
 
 const ChangeIndicator = ({ change }: { change: number }) => {
   if (change === 0) {
-    return <span className="text-gray-400 font-semibold text-sm w-16 text-right">--</span>;
+    return <span className="text-gray-400 font-semibold text-sm w-16 text-left">--</span>;
   }
   
   const isPositive = change > 0;
@@ -25,7 +25,7 @@ const ChangeIndicator = ({ change }: { change: number }) => {
   const symbol = isPositive ? '▲' : '▼';
   
   return (
-    <div className={`flex items-center justify-end w-16 ${color} font-semibold text-sm`}>
+    <div className={`flex items-center justify-start w-16 ${color} font-semibold text-sm`}>
       <span>{symbol} {Math.abs(change)}</span>
     </div>
   );
@@ -55,7 +55,7 @@ export default function LeaderboardItem({ entry, mode }: LeaderboardItemProps) {
         <p className="text-lg font-medium text-white">{entry.name}</p>
       </div>
       <div className="hidden sm:flex w-32 text-right pr-4">
-        <p className="text-lg font-bold text-indigo-400">{points}</p>
+        <p className="text-lg font-bold text-indigo-400">{mode === 'overall' ? parseInt(points).toLocaleString() : points}</p>
       </div>
       <div className="hidden sm:flex w-20 text-right">
         <ChangeIndicator change={change} />

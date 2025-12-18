@@ -15,7 +15,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="text-indigo-400 hover:text-indigo-300 underline transition-colors"
           >
-            IU Indy
+            IU Indianapolis
           </a>
         </h1>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
