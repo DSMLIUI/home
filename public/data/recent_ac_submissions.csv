@@ -21,7 +21,7 @@ maximum-sum-with-at-most-k-elements,1757552841,cpp,Accepted,95 ms,107.9 MB,Jagat
 minimum-cost-to-cut-a-stick,1766369128,cpp,Accepted,11 ms,14.1 MB,Jagath_kumar_reddy_k,11,14.1,25.1
 minimum-deletion-cost-to-make-all-characters-equal,1766288679,python3,Accepted,363 ms,30.5 MB,Jagath_kumar_reddy_k,363,30.5,393.5
 mirror-distance-of-an-integer,1766288091,python3,Accepted,0 ms,17.3 MB,Jagath_kumar_reddy_k,0,17.3,17.3
-network-delay-time,1766422242,cpp,Accepted,472 ms,84.1 MB,Jagath_kumar_reddy_k,472,84.1,556.1
+network-delay-time,1766508628,cpp,Accepted,94 ms,48 MB,Jagath_kumar_reddy_k,94,48.0,142.0
 number-of-islands,1763256098,cpp,Accepted,43 ms,22.4 MB,Jagath_kumar_reddy_k,43,22.4,65.4
 palindromic-substrings,1756056407,cpp,Accepted,0 ms,8.7 MB,Jagath_kumar_reddy_k,0,8.7,8.7
 permutations,1756932927,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0,10.4,10.4
