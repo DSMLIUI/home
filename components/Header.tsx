@@ -15,7 +15,7 @@ export default function Header() {
     }`;
 
   const navLinks = [
-    { to: '/events', label: 'Events' },
+    { to: '/about', label: 'About' },
     { to: '/people', label: 'Board' },
     { to: '/leaderboard', label: 'Leaderboard' }
   ];
@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <header className="bg-rich-black border-b border-dark-gray sticky top-0 z-50">
       <div className="container mx-auto px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-18">
           <div className="flex items-center">
              <NavLink to="/" className="flex items-center space-x-3 group">
                 <img src="logo.svg" alt="Logo" className="w-10 h-10 transition-opacity group-hover:opacity-80"/>

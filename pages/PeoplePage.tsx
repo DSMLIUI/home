@@ -41,9 +41,9 @@ export default function PeoplePage() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden min-h-[calc(100vh-16rem)]">
+    <div className="relative overflow-hidden min-h-screen">
       <NeuralNetwork />
-      <div className="container mx-auto px-8 py-24 pb-32 relative z-10">
+      <div className="container mx-auto px-8 py-24 pb-64 relative z-10">
         <div className="max-w-6xl mx-auto">
         {/* Faculty Advisors Section */}
         <div className="mb-24">
@@ -76,16 +76,15 @@ export default function PeoplePage() {
             </div>
             
             <div className="text-center border-t border-dark-gray pt-12">
-              <p className="text-base font-mono text-mid-gray mb-6">
-                Interested in joining?
-              </p>
+              <br></br>
+              <br></br>
               <a
                 href="https://forms.gle/MRg5a7RArwJVCNcu5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
               >
-                Register
+                Interested in joining? Fill this form
               </a>
             </div>
           </>

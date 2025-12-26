@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PeoplePage from './pages/PeoplePage';
-import EventsPage from './pages/EventsPage';
+import AboutPage from './pages/EventsPage';
 import HomePage from './pages/HomePage';
 import LeaderboardPage from './pages/LeaderboardPage';
 
@@ -16,7 +16,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/people" element={<PeoplePage />} />
-            <Route path="/events" element={<EventsPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </main>

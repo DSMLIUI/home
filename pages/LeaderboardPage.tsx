@@ -55,13 +55,16 @@ export default function LeaderboardPage() {
   });
 
   return (
-    <div className="relative overflow-hidden min-h-[calc(100vh-16rem)]">
+    <div className="relative overflow-hidden min-h-screen">
       <NeuralNetwork />
-      <div className="container mx-auto px-8 py-24 pb-32 relative z-10">
+      <div className="container mx-auto px-8 py-24 pb-64 relative z-10">
       <div className="max-w-4xl mx-auto">
         <div className="mb-16">
           <h1 className="text-3xl sm:text-4xl font-mono font-light text-off-white mb-4">LeetCode Leaderboard</h1>
-          <div className="w-16 h-px bg-muted-blue"></div>
+          <div className="w-16 h-px bg-muted-blue mb-6"></div>
+          <p className="text-base font-mono text-mid-gray leading-relaxed">
+            Solve problems on LeetCode and compete with fellow students to top the leaderboard.
+          </p>
         </div>
 
         <div className="flex justify-center gap-4 mb-12">
@@ -102,7 +105,7 @@ export default function LeaderboardPage() {
                 </div>
                 <div className="hidden sm:flex items-center gap-12">
                   <span className="text-xs font-mono text-mid-gray uppercase min-w-[100px] text-right">
-                    {mode === 'overall' ? 'Points' : 'Weekly'}
+                    {mode === 'overall' ? 'Global Rank' : 'Weekly Points'}
                   </span>
                   <div className="w-20 text-right">
                     <span className="text-xs font-mono text-mid-gray uppercase">Change</span>
@@ -115,16 +118,15 @@ export default function LeaderboardPage() {
             </div>
             
             <div className="text-center border-t border-dark-gray pt-12">
-              <p className="text-base font-mono text-mid-gray mb-6">
-                Join the challenge
-              </p>
+              <br></br>
+              <br></br>
               <a
                 href="https://forms.gle/JmFSztmQmf8FKrZR8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
               >
-                Register
+                Join the challenge
               </a>
             </div>
           </>
