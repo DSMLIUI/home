@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PeoplePage from './pages/PeoplePage';
@@ -9,8 +9,8 @@ import LeaderboardPage from './pages/LeaderboardPage';
 
 export default function App() {
   return (
-    <HashRouter>
-      <div className="min-h-screen flex flex-col">
+    <BrowserRouter>
+      <div className="min-h-screen flex flex-col bg-rich-black grid-dots">
         <Header />
         <main className="flex-grow">
           <Routes>
@@ -22,6 +22,6 @@ export default function App() {
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }

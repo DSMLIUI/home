@@ -1,5 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-rich-black text-off-white font-mono;
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  /* Subtle grid background */
+  .grid-dots {
+    background-image: radial-gradient(circle, rgba(91, 155, 213, 0.08) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Simple card styling */
+  .card {
+    @apply border border-dark-gray bg-rich-black;
+    transition: border-color 0.2s ease;
+  }
+
+  .card:hover {
+    @apply border-darker-gray;
+  }
+
+  /* Button styling */
+  .btn {
+    @apply border border-muted-blue text-muted-blue px-8 py-3;
+    transition: all 0.2s ease;
+  }
+
+  .btn:hover {
+    @apply bg-muted-blue text-rich-black;
+  }
+
+  .btn-secondary {
+    @apply border border-mid-gray text-mid-gray px-8 py-3;
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    @apply border-off-white text-off-white;
+  }
+
+  /* Simple progress bar */
+  .progress-bar {
+    @apply h-1 bg-dark-gray overflow-hidden;
+  }
+
+  .progress-fill {
+    @apply h-full bg-muted-blue;
+    transition: width 0.3s ease;
+  }
+
+  /* Link styling */
+  a:not(.btn):not(.btn-secondary) {
+    @apply text-muted-blue;
+    transition: color 0.2s ease;
+  }
+
+  a:not(.btn):not(.btn-secondary):hover {
+    @apply text-off-white;
+  }
+}
 
 

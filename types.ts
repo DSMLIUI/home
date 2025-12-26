@@ -3,6 +3,7 @@ export interface BoardMember {
   title: string;
   image_url: string;
   linkedin_url: string;
+  profile_url?: string;
   bio: string;
 }
 

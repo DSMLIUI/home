@@ -6,28 +6,27 @@ interface LeaderboardItemProps {
   mode: 'overall' | 'weekly';
 }
 
-const getMedal = (rank: string) => {
-  switch (rank) {
-    case '1': return '🥇';
-    case '2': return '🥈';
-    case '3': return '🥉';
-    default: return null;
-  }
+const getRankColor = (rank: string) => {
+  const rankNum = parseInt(rank);
+  if (rankNum === 1) return 'text-yellow-500';
+  if (rankNum === 2) return 'text-gray-400';
+  if (rankNum === 3) return 'text-orange-600';
+  return 'text-mid-gray';
 };
 
 const ChangeIndicator = ({ change }: { change: number }) => {
   if (change === 0) {
-    return <span className="text-gray-400 font-semibold text-sm w-16 text-left">--</span>;
+    return <span className="text-mid-gray font-mono text-xs">—</span>;
   }
   
   const isPositive = change > 0;
-  const color = isPositive ? 'text-green-400' : 'text-red-400';
-  const symbol = isPositive ? '▲' : '▼';
+  const color = isPositive ? 'text-muted-blue' : 'text-subtle-red';
+  const symbol = isPositive ? '+' : '-';
   
   return (
-    <div className={`flex items-center justify-start w-16 ${color} font-semibold text-sm`}>
-      <span>{symbol} {Math.abs(change)}</span>
-    </div>
+    <span className={`${color} font-mono text-xs`}>
+      {symbol}{Math.abs(change)}
+    </span>
   );
 };
 
@@ -36,8 +35,8 @@ export default function LeaderboardItem({ entry, mode }: LeaderboardItemProps) {
   const points = mode === 'overall' ? entry.overall_points : entry.weekly_points;
   const change = mode === 'overall' ? parseInt(entry.overall_change, 10) : parseInt(entry.weekly_change, 10);
   
-  const medal = getMedal(rank);
   const leetcodeProfileUrl = `http://leetcode.com/u/${entry.id}/`;
+  const rankColor = getRankColor(rank);
 
   const handleRowClick = () => {
     window.open(leetcodeProfileUrl, '_blank');
@@ -46,19 +45,21 @@ export default function LeaderboardItem({ entry, mode }: LeaderboardItemProps) {
   return (
     <div 
       onClick={handleRowClick}
-      className="flex items-center px-4 py-4 border-b border-gray-700 last:border-b-0 hover:bg-gray-800 transition-colors duration-200 cursor-pointer"
+      className="flex items-center px-6 py-4 border-b border-dark-gray last:border-b-0 hover:bg-dark-gray cursor-pointer transition-colors"
     >
-      <div className="w-12 text-center">
-        <span className={`${medal ? 'text-2xl' : 'text-lg'} font-bold text-white`}>{medal || rank}</span>
+      <div className="w-16 flex-shrink-0 flex items-center justify-center">
+        <span className={`text-sm font-mono font-medium ${rankColor}`}>{rank.padStart(2, '0')}</span>
       </div>
-      <div className="flex-grow ml-12">
-        <p className="text-lg font-medium text-white">{entry.name}</p>
+      <div className="flex-grow ml-6">
+        <span className="text-sm font-mono text-off-white">{entry.name}</span>
       </div>
-      <div className="hidden sm:flex w-32 text-right pr-4">
-        <p className="text-lg font-bold text-indigo-400">{mode === 'overall' ? parseInt(points).toLocaleString() : points}</p>
-      </div>
-      <div className="hidden sm:flex w-20 text-right">
-        <ChangeIndicator change={change} />
+      <div className="hidden sm:flex items-center gap-12">
+        <span className="text-sm font-mono text-muted-blue min-w-[100px] text-right">
+          {mode === 'overall' ? parseInt(points).toLocaleString() : points}
+        </span>
+        <div className="w-20 text-right">
+          <ChangeIndicator change={change} />
+        </div>
       </div>
     </div>
   );

@@ -1,37 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import NeuralNetwork from '../components/NeuralNetwork';
 
 export default function HomePage() {
   return (
-    <div className="text-white min-h-[calc(100vh-80px-100px)] flex items-center justify-center">
-      <div className="container mx-auto px-4 py-16 sm:py-24 text-center">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight">
-          Welcome to the
-          <br />
-          <span className="text-indigo-400">Data Science & Machine Learning Club</span> at{' '}
+    <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center relative overflow-hidden pb-32">
+      <NeuralNetwork />
+      <div className="container mx-auto px-8 py-24 text-center max-w-4xl relative z-10">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-mono font-light text-off-white leading-tight mb-8">
+          Data Science & Machine Learning Club
+        </h1>
+        <p className="text-lg sm:text-xl text-mid-gray font-mono mb-4">
+          at{' '}
           <a
             href="https://indianapolis.iu.edu/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-indigo-400 hover:text-indigo-300 underline transition-colors"
+            className="text-muted-blue hover:text-off-white transition-colors"
           >
             IU Indianapolis
           </a>
-        </h1>
-        <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          <Link
-            to="/events"
-            className="inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-indigo-700 transition-transform transform hover:scale-105"
-          >
-            Upcoming Events
-          </Link>
-          <Link
-            to="/people"
-            className="inline-block bg-gray-700 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-600 transition-transform transform hover:scale-105"
-          >
-            Meet the Board
-          </Link>
-        </div>
+        </p>
       </div>
     </div>
   );
