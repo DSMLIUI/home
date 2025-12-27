@@ -1,5 +1,6 @@
 titleSlug,timestamp,lang,statusDisplay,runtime,memory,id,runtime_val,memory_val,weekly_points
 best-time-to-buy-and-sell-stock-with-cooldown,1760760385,cpp,Accepted,0 ms,15 MB,Jagath_kumar_reddy_k,0,15.0,15.0
+clone-graph,1766768963,cpp,Accepted,0 ms,11.7 MB,Jagath_kumar_reddy_k,0,11.7,11.7
 coin-change,1756243201,cpp,Accepted,23 ms,17.9 MB,Jagath_kumar_reddy_k,23,17.9,40.9
 coin-change-ii,1760761619,cpp,Accepted,165 ms,42 MB,Jagath_kumar_reddy_k,165,42.0,207.0
 combination-sum,1756170279,cpp,Accepted,3 ms,17.9 MB,Jagath_kumar_reddy_k,3,17.9,20.9
@@ -41,7 +42,7 @@ best-time-to-buy-and-sell-stock,1761337698,python3,Accepted,27 ms,27 MB,Vigneshw
 binary-search,1763154020,python3,Accepted,0 ms,18.9 MB,Vigneshwar_RR,0,18.9,18.9
 combination-sum,1683045286,python,Accepted,42 ms,13.3 MB,Vigneshwar_RR,42,13.3,55.3
 container-with-most-water,1682834793,python,Accepted,562 ms,23.9 MB,Vigneshwar_RR,562,23.9,585.9
-contains-duplicate,1750968050,python3,Accepted,16 ms,31.5 MB,Vigneshwar_RR,16,31.5,47.5
+contains-duplicate,1766756695,python3,Accepted,12 ms,28.9 MB,Vigneshwar_RR,12,28.9,40.9
 find-the-difference-of-two-arrays,1683113527,python,Accepted,146 ms,13.7 MB,Vigneshwar_RR,146,13.7,159.7
 find-the-index-of-the-first-occurrence-in-a-string,1684480852,python,Accepted,17 ms,13.5 MB,Vigneshwar_RR,17,13.5,30.5
 generate-parentheses,1682946563,python,Accepted,15 ms,13.8 MB,Vigneshwar_RR,15,13.8,28.8
@@ -56,7 +57,7 @@ sort-vowels-in-a-string,1699847768,python3,Accepted,148 ms,24.3 MB,Vigneshwar_RR
 spiral-matrix,1683736517,python,Accepted,21 ms,13.3 MB,Vigneshwar_RR,21,13.3,34.3
 strictly-palindromic-number,1683523567,python,Accepted,21 ms,16.6 MB,Vigneshwar_RR,21,16.6,37.6
 two-sum,1763603809,python3,Accepted,0 ms,18.8 MB,Vigneshwar_RR,0,18.8,18.8
-valid-anagram,1761335784,python3,Accepted,8 ms,17.9 MB,Vigneshwar_RR,8,17.9,25.9
+valid-anagram,1766758658,python3,Accepted,8 ms,17.7 MB,Vigneshwar_RR,8,17.7,25.7
 valid-perfect-square,1763154983,python3,Accepted,0 ms,17.9 MB,Vigneshwar_RR,0,17.9,17.9
 valid-sudoku,1682926188,python,Accepted,71 ms,13.5 MB,Vigneshwar_RR,71,13.5,84.5
 check-if-array-is-sorted-and-rotated,1738529984,cpp,Accepted,0 ms,11.2 MB,_greenleaf,0,11.2,11.2
