@@ -1,27 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import PeoplePage from './pages/PeoplePage';
-import AboutPage from './pages/EventsPage';
-import HomePage from './pages/HomePage';
-import LeaderboardPage from './pages/LeaderboardPage';
+import Variation3 from './components/Variation3';
 
-export default function App() {
+const App: React.FC = () => {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen flex flex-col bg-rich-black grid-dots">
-        <Header />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/people" element={<PeoplePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/leaderboard" element={<LeaderboardPage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="relative">
+      <Variation3 />
+    </div>
   );
-}
+};
+
+export default App;
