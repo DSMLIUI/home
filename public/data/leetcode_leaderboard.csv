@@ -1,6 +1,6 @@
-overall_rank,weekly_rank,id,weekly_points,weekly_change,overall_points,overall_change,name,linkedin_url
-1,1,yashwanth1129,1054.9,0,765194,-434,Yashwanth Anantha,https://www.linkedin.com/in/yashwanth-anantha-13a099192/
-5,2,Vigneshwar_RR,1658.0,0,2056536,-1184,Vigneshwar Ravi,https://www.linkedin.com/in/vigneshwarravirao/
-3,3,madhavan02,4108.4,0,1468628,-816,Madhavan Balaji,https://www.linkedin.com/in/madhavanbalaji/
-4,4,user2464b,5021.0,0,2032332,-1156,Raghuveer Venkatesh,https://www.linkedin.com/in/raghuveer-venkatesh/
-2,5,Jagath_kumar_reddy_k,5115.099999999999,172,1135893,16026,Jagath Kumar Reddy,https://www.linkedin.com/in/jagathkrk/
+name,id,global_rank,global_leetcode_rank,global_change,overall_rank,overall_problems_solved,overall_rank_change,weekly_rank,weekly_problems_solved,weekly_rank_change,linkedin_url
+Jagath Kumar Reddy,Jagath_kumar_reddy_k,2,1135893,0,1,4,0,1,4,0,https://www.linkedin.com/in/jagathkrk/
+Yashwanth Anantha,yashwanth1129,1,765194,0,2,0,0,2,0,0,https://www.linkedin.com/in/yashwanth-anantha-13a099192/
+Madhavan Balaji,madhavan02,3,1468628,0,3,0,0,3,0,0,https://www.linkedin.com/in/madhavanbalaji/
+Raghuveer Venkatesh,user2464b,4,2032332,0,4,0,0,4,0,0,https://www.linkedin.com/in/raghuveer-venkatesh/
+Vigneshwar Ravi,Vigneshwar_RR,5,2056536,0,5,0,0,5,0,0,https://www.linkedin.com/in/vigneshwarravirao/

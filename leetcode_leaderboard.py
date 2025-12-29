@@ -123,10 +123,9 @@ def main():
 
     df_all = pd.read_csv('public/data/recent_ac_submissions.csv') if pd.io.common.file_exists('public/data/recent_ac_submissions.csv') else pd.DataFrame()
     df_rank_old = pd.read_csv('public/data/leetcode_leaderboard.csv') if pd.io.common.file_exists('public/data/leetcode_leaderboard.csv') else pd.DataFrame()
-    df_rank_old = df_rank_old[['id', 'weekly_points','overall_points']].rename(columns={'weekly_points': 'weekly_points_old', 'overall_points': 'overall_points_old'})
+    df_rank_old = df_rank_old[['id', 'weekly_problems_solved','overall_problems_solved', 'global_leetcode_rank']].rename(columns={'weekly_problems_solved': 'weekly_problems_solved_old', 'overall_problems_solved': 'overall_problems_solved_old', 'global_leetcode_rank': 'global_leetcode_rank_old'}) if not df_rank_old.empty else pd.DataFrame()
 
-    df_overall_rank_new = pd.DataFrame(['id', 'overall_points'])
-    overall_points = []
+    global_leetcode_rank = []
 
     for username in usernames:
         recent_subs = get_recent_ac_submissions(username)
@@ -135,48 +134,94 @@ def main():
         df['id'] = username
         df_all = pd.concat([df_all, df], ignore_index=True)
 
-        overall_points.append(get_user_stat(username))
+        global_leetcode_rank.append(get_user_stat(username))
     
-    df_overall_rank_new = pd.DataFrame({'id': usernames, 'overall_points': overall_points})
-    df_all['runtime_val'] = df_all['runtime'].apply(lambda x: int(x.split()[0].rstrip(UNITS)))
-    df_all['memory_val'] = df_all['memory'].apply(lambda x: float(x.split()[0].rstrip(UNITS)))
-    df_all.sort_values(by=['id', 'titleSlug', 'runtime_val', 'memory_val'], ascending=[True, True , True, True], inplace=True)
+    # Handle mixed timestamp formats (Unix epoch numbers and datetime strings)
+    df_all['timestamp'] = df_all['timestamp'].apply(
+        lambda x: pd.to_datetime(x, unit='s') if str(x).isdigit() else pd.to_datetime(x)
+    )
+    
+    df_all.sort_values(by=['id', 'titleSlug'], ascending=[True, True], inplace=True)
     df_all = df_all.drop_duplicates(subset=['id', 'titleSlug'], keep='first')
 
+    # Load the challenge schedule
+    df_challenge = pd.read_csv('public/data/leetcode_challenge.csv')
+    df_challenge['Date'] = pd.to_datetime(df_challenge['Date'], format='%d/%m/%y')
+    
+    # Calculate current week number based on challenge start date
+    challenge_start_date = df_challenge['Date'].min()
+    current_date = datetime.datetime.now()
+    days_since_start = (current_date - challenge_start_date).days
+    current_week = (days_since_start // 7) + 1
 
-    ### The below block calculates the weekly points - need to change it appropriately
+    ### STEP 1: Calculate overall problems solved and overall rank
     ##################################
-
-    df_all['weekly_points'] = df_all['runtime_val'] + df_all['memory_val']
-
-    ##################################
-
-    df_rank_new = df_all.groupby('id')['weekly_points'].sum().reset_index().sort_values(by='weekly_points')
-
-    # filtering only for the usernames in the list and retaining the old user's data in recent_ac_submissions.csv
-    df_rank_new = df_rank_new[df_rank_new['id'].isin(usernames)] 
-
-    df_rank_new.reset_index(drop=True, inplace=True)
-    df_rank_new['weekly_rank'] = df_rank_new.index + 1
-    df_rank_new = df_rank_new[['weekly_rank', 'id', 'weekly_points']]
-    df_rank_new.sort_values(by = 'weekly_rank', ascending=True, inplace=True)
-
-    df_merged_points = df_rank_new.merge(df_rank_old, on='id', how='left')
-    df_merged_points['weekly_change'] = (df_merged_points['weekly_points'] - df_merged_points['weekly_points_old']).fillna(0).astype(int)
-
-    df_result = df_merged_points[['weekly_rank', 'id', 'weekly_points', 'weekly_change']]
+    
+    # Get all problems from week 1 to current week (all problems in syllabus so far)
+    overall_problems = df_challenge[df_challenge['Week'] <= current_week]['problem_name'].tolist()
+    
+    # Filter submissions to only include problems from the syllabus
+    df_overall = df_all[df_all['titleSlug'].isin(overall_problems)].copy()
+    
+    # Count number of overall problems solved per user
+    df_overall_count = df_overall.groupby('id').size().reset_index(name='overall_problems_solved')
+    
+    # Create a dataframe with all users (including those with 0 problems solved)
+    df_result = pd.DataFrame({'id': usernames})
+    df_result = df_result.merge(df_overall_count, on='id', how='left')
+    df_result['overall_problems_solved'] = df_result['overall_problems_solved'].fillna(0).astype(int)
+    
+    # Add global LeetCode ranking
+    df_result['global_leetcode_rank'] = global_leetcode_rank
+    
+    # Merge with user info and old data
     df_result = df_result.merge(df_user, on='id', how='left')
+    df_result = df_result.merge(df_rank_old, on='id', how='left')
+    
+    # Calculate overall_rank with tie-breaking: overall_problems_solved (desc) > global_leetcode_rank (asc)
+    df_result = df_result.sort_values(by=['overall_problems_solved', 'global_leetcode_rank'], ascending=[False, True]).reset_index(drop=True)
+    df_result['overall_rank'] = range(1, len(df_result) + 1)
+    
+    # Calculate overall_rank_change
+    df_result['overall_rank_change'] = (df_result['overall_problems_solved_old'] - df_result['overall_problems_solved']).fillna(0).astype(int)
 
+    ##################################
 
+    ### STEP 2: Calculate weekly problems solved and weekly rank
+    ##################################
+    
+    # Get problems for current week
+    weekly_problems = df_challenge[df_challenge['Week'] == current_week]['problem_name'].tolist()
+    
+    # Calculate one week ago from now
+    one_week_ago = current_date - datetime.timedelta(days=7)
+    
+    # Filter submissions to only include current week's problems solved within the last week
+    df_weekly = df_all[
+        (df_all['titleSlug'].isin(weekly_problems)) & 
+        (df_all['timestamp'] >= one_week_ago)
+    ].copy()
+    
+    # Count number of weekly problems solved per user
+    df_weekly_count = df_weekly.groupby('id').size().reset_index(name='weekly_problems_solved')
+    
+    # Merge weekly data
+    df_result = df_result.merge(df_weekly_count, on='id', how='left')
+    df_result['weekly_problems_solved'] = df_result['weekly_problems_solved'].fillna(0).astype(int)
+    
+    # Calculate weekly_rank with tie-breaking: weekly_problems_solved (desc) > overall_rank (asc) > global_leetcode_rank (asc)
+    df_result = df_result.sort_values(by=['weekly_problems_solved', 'overall_rank', 'global_leetcode_rank'], ascending=[False, True, True]).reset_index(drop=True)
+    df_result['weekly_rank'] = range(1, len(df_result) + 1)
+    
+    # Calculate weekly_rank_change
+    df_result['weekly_rank_change'] = (df_result['weekly_problems_solved_old'] - df_result['weekly_problems_solved']).fillna(0).astype(int)
 
-    ## getting user stats for each user
-    df_overall_rank_new = df_overall_rank_new.merge(df_rank_old, on='id', how='left')
-    df_result = df_result.merge(df_overall_rank_new, on='id', how='left')
-    df_result['overall_rank'] = df_result['overall_points'].rank(method='min').astype(int)
-
-    df_result['overall_change'] = (df_result['overall_points_old'] - df_result['overall_points']).fillna(0).astype(int)
-
-    df_result = df_result[['overall_rank', 'weekly_rank', 'id', 'weekly_points', 'weekly_change', 'overall_points', 'overall_change', 'name', 'linkedin_url']]  
+    ##################################
+    
+    # Set global_rank same as overall_rank and calculate global_change
+    df_result['global_rank'] = df_result['global_leetcode_rank'].rank(method='min').astype(int)
+    df_result['global_change'] = (df_result['global_leetcode_rank_old'] - df_result['global_leetcode_rank']).fillna(0).astype(int)
+    df_result = df_result[['name', 'id', 'global_rank', 'global_leetcode_rank', 'global_change', 'overall_rank', 'overall_problems_solved', 'overall_rank_change', 'weekly_rank', 'weekly_problems_solved', 'weekly_rank_change', 'linkedin_url']]  
 
     print(df_result)
 

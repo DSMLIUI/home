@@ -1,0 +1,85 @@
+﻿Week,Date,Topic,LeetCode Link,problem_name,problem_number
+1,24/12/25,Arrays,https://leetcode.com/problems/contains-duplicate/,network-delay-time,217
+1,25/12/25,Arrays,https://leetcode.com/problems/valid-anagram/,minimum-cost-to-acquire-required-items,242
+1,26/12/25,Arrays,https://leetcode.com/problems/two-sum/,maximum-score-of-a-split,1
+1,27/12/25,Arrays,https://leetcode.com/problems/group-anagrams/,swim-in-rising-water,49
+1,28/12/25,Arrays,https://leetcode.com/problems/top-k-frequent-elements/,top-k-frequent-elements,347
+1,29/12/25,Arrays,https://leetcode.com/problems/product-of-array-except-self/,product-of-array-except-self,238
+1,30/12/25,Arrays,https://leetcode.com/problems/longest-consecutive-sequence/,longest-consecutive-sequence,128
+2,31/12/25,Pointers,https://leetcode.com/problems/valid-palindrome/,valid-palindrome,125
+2,01/01/26,Pointers,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/,two-sum-ii-input-array-is-sorted,167
+2,02/01/26,Pointers,https://leetcode.com/problems/3sum/,3sum,15
+2,03/01/26,Pointers,https://leetcode.com/problems/container-with-most-water/,container-with-most-water,11
+2,04/01/26,Pointers,https://leetcode.com/problems/trapping-rain-water/,trapping-rain-water,42
+2,05/01/26,Pointers,https://leetcode.com/problems/remove-duplicates-from-sorted-array/,remove-duplicates-from-sorted-array,26
+2,06/01/26,Pointers,https://leetcode.com/problems/move-zeroes/,move-zeroes,283
+3,07/01/26,Window,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,best-time-to-buy-and-sell-stock,121
+3,08/01/26,Window,https://leetcode.com/problems/longest-substring-without-repeating-characters/,longest-substring-without-repeating-characters,3
+3,09/01/26,Window,https://leetcode.com/problems/longest-repeating-character-replacement/,longest-repeating-character-replacement,424
+3,10/01/26,Window,https://leetcode.com/problems/permutation-in-string/,permutation-in-string,567
+3,11/01/26,Window,https://leetcode.com/problems/minimum-window-substring/,minimum-window-substring,76
+3,12/01/26,Window,https://leetcode.com/problems/sliding-window-maximum/,sliding-window-maximum,239
+3,13/01/26,Window,https://leetcode.com/problems/fruit-into-baskets/,fruit-into-baskets,904
+4,14/01/26,Stack,https://leetcode.com/problems/valid-parentheses/,valid-parentheses,20
+4,15/01/26,Stack,https://leetcode.com/problems/min-stack/,min-stack,155
+4,16/01/26,Stack,https://leetcode.com/problems/evaluate-reverse-polish-notation/,evaluate-reverse-polish-notation,150
+4,17/01/26,Stack,https://leetcode.com/problems/generate-parentheses/,generate-parentheses,22
+4,18/01/26,Stack,https://leetcode.com/problems/daily-temperatures/,daily-temperatures,739
+4,19/01/26,Stack,https://leetcode.com/problems/car-fleet/,car-fleet,853
+4,20/01/26,Stack,https://leetcode.com/problems/largest-rectangle-in-histogram/,largest-rectangle-in-histogram,84
+5,21/01/26,Search,https://leetcode.com/problems/binary-search/,binary-search,704
+5,22/01/26,Search,https://leetcode.com/problems/search-a-2d-matrix/,search-a-2d-matrix,74
+5,23/01/26,Search,https://leetcode.com/problems/koko-eating-bananas/,koko-eating-bananas,875
+5,24/01/26,Search,https://leetcode.com/problems/search-in-rotated-sorted-array/,search-in-rotated-sorted-array,33
+5,25/01/26,Search,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,find-minimum-in-rotated-sorted-array,153
+5,26/01/26,Search,https://leetcode.com/problems/time-based-key-value-store/,time-based-key-value-store,981
+5,27/01/26,Search,https://leetcode.com/problems/median-of-two-sorted-arrays/,median-of-two-sorted-arrays,4
+6,28/01/26,Linked,https://leetcode.com/problems/reverse-linked-list/,reverse-linked-list,206
+6,29/01/26,Linked,https://leetcode.com/problems/merge-two-sorted-lists/,merge-two-sorted-lists,21
+6,30/01/26,Linked,https://leetcode.com/problems/reorder-list/,reorder-list,143
+6,31/01/26,Linked,https://leetcode.com/problems/remove-nth-node-from-end-of-list/,remove-nth-node-from-end-of-list,19
+6,01/02/26,Linked,https://leetcode.com/problems/copy-list-with-random-pointer/,copy-list-with-random-pointer,138
+6,02/02/26,Linked,https://leetcode.com/problems/add-two-numbers/,add-two-numbers,2
+6,03/02/26,Linked,https://leetcode.com/problems/linked-list-cycle/,linked-list-cycle,141
+7,04/02/26,Trees 1,https://leetcode.com/problems/invert-binary-tree/,invert-binary-tree,226
+7,05/02/26,Trees 1,https://leetcode.com/problems/maximum-depth-of-binary-tree/,maximum-depth-of-binary-tree,104
+7,06/02/26,Trees 1,https://leetcode.com/problems/diameter-of-binary-tree/,diameter-of-binary-tree,543
+7,07/02/26,Trees 1,https://leetcode.com/problems/balanced-binary-tree/,balanced-binary-tree,110
+7,08/02/26,Trees 1,https://leetcode.com/problems/same-tree/,same-tree,100
+7,09/02/26,Trees 1,https://leetcode.com/problems/subtree-of-another-tree/,subtree-of-another-tree,572
+7,10/02/26,Trees 1,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,lowest-common-ancestor-of-a-binary-search-tree,235
+8,11/02/26,Trees 2,https://leetcode.com/problems/binary-tree-level-order-traversal/,binary-tree-level-order-traversal,102
+8,12/02/26,Trees 2,https://leetcode.com/problems/binary-tree-right-side-view/,binary-tree-right-side-view,199
+8,13/02/26,Trees 2,https://leetcode.com/problems/count-good-nodes-in-binary-tree/,count-good-nodes-in-binary-tree,1448
+8,14/02/26,Trees 2,https://leetcode.com/problems/validate-binary-search-tree/,validate-binary-search-tree,98
+8,15/02/26,Trees 2,https://leetcode.com/problems/kth-smallest-element-in-a-bst/,kth-smallest-element-in-a-bst,230
+8,16/02/26,Tries,https://leetcode.com/problems/implement-trie-prefix-tree/,implement-trie-prefix-tree,208
+8,17/02/26,Tries,https://leetcode.com/problems/word-search-ii/,word-search-ii,212
+9,18/02/26,Heap,https://leetcode.com/problems/kth-largest-element-in-a-stream/,kth-largest-element-in-a-stream,703
+9,19/02/26,Heap,https://leetcode.com/problems/last-stone-weight/,last-stone-weight,1046
+9,20/02/26,Heap,https://leetcode.com/problems/k-closest-points-to-origin/,k-closest-points-to-origin,973
+9,21/02/26,Backtrack,https://leetcode.com/problems/subsets/,subsets,78
+9,22/02/26,Backtrack,https://leetcode.com/problems/combination-sum/,combination-sum,39
+9,23/02/26,Backtrack,https://leetcode.com/problems/permutations/,permutations,46
+9,24/02/26,Backtrack,https://leetcode.com/problems/word-search/,word-search,79
+10,25/02/26,Graph,https://leetcode.com/problems/number-of-islands/,number-of-islands,200
+10,26/02/26,Graph,https://leetcode.com/problems/max-area-of-island/,max-area-of-island,695
+10,27/02/26,Graph,https://leetcode.com/problems/clone-graph/,clone-graph,133
+10,28/02/26,Graph,https://leetcode.com/problems/pacific-atlantic-water-flow/,pacific-atlantic-water-flow,417
+10,01/03/26,Graph,https://leetcode.com/problems/course-schedule/,course-schedule,207
+10,02/03/26,Graph,https://leetcode.com/problems/rotting-oranges/,rotting-oranges,994
+10,03/03/26,Graph,https://leetcode.com/problems/redundant-connection/,redundant-connection,684
+11,04/03/26,1D DP,https://leetcode.com/problems/climbing-stairs/,climbing-stairs,70
+11,05/03/26,1D DP,https://leetcode.com/problems/min-cost-climbing-stairs/,min-cost-climbing-stairs,746
+11,06/03/26,1D DP,https://leetcode.com/problems/house-robber/,house-robber,198
+11,07/03/26,1D DP,https://leetcode.com/problems/house-robber-ii/,house-robber-ii,213
+11,08/03/26,1D DP,https://leetcode.com/problems/longest-palindromic-substring/,longest-palindromic-substring,5
+11,09/03/26,1D DP,https://leetcode.com/problems/palindromic-substrings/,palindromic-substrings,647
+11,10/03/26,1D DP,https://leetcode.com/problems/decode-ways/,decode-ways,91
+12,11/03/26,Sprint,https://leetcode.com/problems/coin-change/,coin-change,322
+12,12/03/26,Sprint,https://leetcode.com/problems/longest-increasing-subsequence/,longest-increasing-subsequence,300
+12,13/03/26,Sprint,https://leetcode.com/problems/word-break/,word-break,139
+12,14/03/26,Sprint,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/,number-of-connected-components-in-an-undirected-graph,323
+12,15/03/26,Sprint,https://leetcode.com/problems/graph-valid-tree/,graph-valid-tree,261
+12,16/03/26,Sprint,https://leetcode.com/problems/meeting-rooms/,meeting-rooms,252
+12,17/03/26,Sprint,https://leetcode.com/problems/meeting-rooms-ii/,meeting-rooms-ii,253

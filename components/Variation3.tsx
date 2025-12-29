@@ -80,14 +80,17 @@ const LinktreeIcon = () => (
 
 // --- Shared Data Types ---
 interface LeaderboardEntry {
-    overall_rank: number;
-    weekly_rank: number;
-    id: string;
-    weekly_points: number;
-    weekly_change: number;
-    overall_points: number;
-    overall_change: number;
     name: string;
+    id: string;
+    global_rank: number;
+    global_leetcode_rank: number;
+    global_change: number;
+    overall_rank: number;
+    overall_problems_solved: number;
+    overall_rank_change: number;
+    weekly_rank: number;
+    weekly_problems_solved: number;
+    weekly_rank_change: number;
     linkedin_url: string;
 }
 
@@ -102,27 +105,53 @@ const Podium = () => {
             .then(response => response.text())
             .then(csvData => {
                 const lines = csvData.split('\n');
+                const headers = lines[0].split(',').map(h => h.trim());
+                const headerIndex = (key: string) => headers.findIndex(h => h === key);
+                const indices = {
+                    name: headerIndex('name'),
+                    id: headerIndex('id'),
+                    global_rank: headerIndex('global_rank'),
+                    global_leetcode_rank: headerIndex('global_leetcode_rank'),
+                    global_change: headerIndex('global_change'),
+                    overall_rank: headerIndex('overall_rank'),
+                    overall_problems_solved: headerIndex('overall_problems_solved'),
+                    overall_rank_change: headerIndex('overall_rank_change'),
+                    weekly_rank: headerIndex('weekly_rank'),
+                    weekly_problems_solved: headerIndex('weekly_problems_solved'),
+                    weekly_rank_change: headerIndex('weekly_rank_change'),
+                    linkedin_url: headerIndex('linkedin_url')
+                };
+
                 const entries: LeaderboardEntry[] = [];
                 const seenIds = new Set<string>();
                 
                 for (let i = 1; i < lines.length; i++) {
                     if (lines[i].trim()) {
                         const values = lines[i].split(',');
-                        const id = values[2]?.trim();
+                        const getValue = (index: number) => index >= 0 && index < values.length ? values[index].trim() : '';
+                        const id = getValue(indices.id);
                         
                         if (seenIds.has(id)) continue;
                         seenIds.add(id);
                         
+                        const parseNumber = (value: string) => {
+                            const num = parseFloat(value);
+                            return Number.isFinite(num) ? num : 0;
+                        };
+                        
                         entries.push({
-                            overall_rank: parseInt(values[0]?.trim() || '0'),
-                            weekly_rank: parseInt(values[1]?.trim() || '0'),
+                            name: getValue(indices.name) || '',
                             id: id || '',
-                            weekly_points: parseFloat(values[3]?.trim() || '0'),
-                            weekly_change: parseFloat(values[4]?.trim() || '0'),
-                            overall_points: parseInt(values[5]?.trim() || '0'),
-                            overall_change: parseInt(values[6]?.trim() || '0'),
-                            name: values[7]?.trim() || '',
-                            linkedin_url: values[8]?.trim() || ''
+                            global_rank: parseNumber(getValue(indices.global_rank)),
+                            global_leetcode_rank: parseNumber(getValue(indices.global_leetcode_rank)),
+                            global_change: parseNumber(getValue(indices.global_change)),
+                            overall_rank: parseNumber(getValue(indices.overall_rank)),
+                            overall_problems_solved: parseNumber(getValue(indices.overall_problems_solved)),
+                            overall_rank_change: parseNumber(getValue(indices.overall_rank_change)),
+                            weekly_rank: parseNumber(getValue(indices.weekly_rank)),
+                            weekly_problems_solved: parseNumber(getValue(indices.weekly_problems_solved)),
+                            weekly_rank_change: parseNumber(getValue(indices.weekly_rank_change)),
+                            linkedin_url: getValue(indices.linkedin_url)
                         });
                     }
                 }
@@ -131,11 +160,11 @@ const Podium = () => {
             .catch(error => console.error('Error loading leaderboard data:', error));
     }, []);
 
-    // Specific order for Podium: 2nd, 1st, 3rd (using overall_rank)
+    // Specific order for Podium: 2nd, 1st, 3rd (using global_rank)
     const podiumData = [
-        leaderboardData.find(u => u.overall_rank === 2),
-        leaderboardData.find(u => u.overall_rank === 1),
-        leaderboardData.find(u => u.overall_rank === 3),
+        leaderboardData.find(u => u.global_rank === 2),
+        leaderboardData.find(u => u.global_rank === 1),
+        leaderboardData.find(u => u.global_rank === 3),
     ].filter((item): item is LeaderboardEntry => !!item);
 
     const heightClasses = ['h-[50%]', 'h-[75%]', 'h-[40%]'];
@@ -143,7 +172,7 @@ const Podium = () => {
     return (
         <div className="flex justify-center items-end h-[300px] md:h-[400px] lg:h-[500px] w-full max-w-4xl mx-auto gap-3 md:gap-8 px-2 md:px-4 mb-20">
             {podiumData.map((user, index) => (
-                <div key={user.overall_rank} className={`flex flex-col items-center justify-end w-1/3 ${heightClasses[index]} group transition-all duration-500`}>
+                <div key={user.global_rank} className={`flex flex-col items-center justify-end w-1/3 ${heightClasses[index]} group transition-all duration-500`}>
                         {/* User Details Box (Floating above bar) */}
                         <div className="-mb-4 md:-mb-6 w-full text-center animate-in slide-in-from-bottom-4 fade-in duration-700 flex flex-col items-center relative z-20">
                         <div className="font-vt323 text-lg sm:text-xl md:text-2xl lg:text-3xl text-white mb-1 w-full truncate px-1 md:px-2">
@@ -151,9 +180,9 @@ const Podium = () => {
                         </div>
                         {/* Stock Ticker Stats */}
                         <div className="inline-flex items-center gap-2 md:gap-3 bg-[#111] border border-gray-800 px-2 py-0.5 md:px-3 md:py-1 rounded-sm">
-                            <span className={`font-mono text-xs md:text-sm lg:text-base flex items-center gap-1 ${user.overall_change >= 0 ? 'text-green-500' : 'text-red-500'}`}>
-                                {user.overall_change >= 0 ? '▲' : '▼'} 
-                                {Math.abs(user.overall_change)}
+                            <span className={`font-mono text-xs md:text-sm lg:text-base flex items-center gap-1 ${user.global_change >= 0 ? 'text-green-500' : 'text-red-500'}`}>
+                                {user.global_change >= 0 ? '▲' : '▼'} 
+                                {Math.abs(user.global_change)}
                             </span>
                         </div>
                         </div>
@@ -165,21 +194,21 @@ const Podium = () => {
                             rel="noopener noreferrer"
                             className={`w-full h-full relative border-x-2 border-b-2 border-t-0 transition-all duration-300 flex items-center justify-center cursor-pointer
                             bg-[#0a0a0a] hover:bg-white/5 opacity-90 hover:opacity-100
-                            ${user.overall_rank === 1 ? 'border-white shadow-[0_0_20px_rgba(255,255,255,0.1)] z-10' : 'border-gray-700 hover:border-gray-500'}
+                            ${user.global_rank === 1 ? 'border-white shadow-[0_0_20px_rgba(255,255,255,0.1)] z-10' : 'border-gray-700 hover:border-gray-500'}
                         `}>
                             {/* Accent Line - Placed at the very top */}
-                            <div className={`absolute -top-[2px] -left-[2px] w-[calc(100%+4px)] h-1.5 ${user.overall_change >= 0 ? 'bg-green-500' : 'bg-red-500'}`}></div>
+                            <div className={`absolute -top-[2px] -left-[2px] w-[calc(100%+4px)] h-1.5 ${user.global_change >= 0 ? 'bg-green-500' : 'bg-red-500'}`}></div>
 
                             {/* Scanline Texture inside Bar */}
                             <div className="absolute inset-0 bg-[linear-gradient(rgba(18,18,18,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_4px,3px_100%] pointer-events-none"></div>
                             
                             {/* Rank Number Display */}
                             <div className={`font-vt323 font-bold leading-none select-none text-center w-full pb-4 md:pb-6
-                                ${user.overall_rank === 1 
+                                ${user.global_rank === 1 
                                     ? 'text-7xl sm:text-8xl md:text-[120px] lg:text-[150px] xl:text-[180px] text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]' 
                                     : 'text-5xl sm:text-6xl md:text-8xl lg:text-[100px] xl:text-[120px] text-gray-600'}
                             `}>
-                                {user.overall_rank}
+                                {user.global_rank}
                             </div>
                         </a>
                 </div>
