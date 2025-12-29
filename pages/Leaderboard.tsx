@@ -93,6 +93,7 @@ const LeaderboardView = () => {
     const [viewMode, setViewMode] = useState<'overall' | 'weekly'>('overall');
     const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
+    const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
     const ITEMS_PER_PAGE = 7;
 
     useEffect(() => {
@@ -170,7 +171,7 @@ const LeaderboardView = () => {
                 <div className="mb-6 max-w-3xl">
                     <p className="font-space text-gray-300 text-base md:text-lg leading-relaxed">
                         Join the algorithm arena. Solve LeetCode problems, compete with peers, and sharpen your skills. 
-                        Whether you're a beginner or a pro, <span className="text-white font-bold">join us in the journey</span> to mastery.
+                        Whether you're a beginner or a pro, <span className="text-white font-bold"> <a href="https://forms.gle/A687ry7BJXsQxau4A"><u>join us</u></a>  in the journey</span> to mastery.
                     </p>
                 </div>
 
@@ -269,10 +270,104 @@ const LeaderboardView = () => {
                 )}
 
                 {/* Footer Action */}
-                <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-6 pb-20">
-                    <button className="w-full md:w-auto bg-white text-black border-2 border-white px-8 py-3 font-vt323 text-xl md:text-2xl hover:bg-gray-200 transition-all uppercase tracking-widest font-bold shadow-[0_0_15px_rgba(255,255,255,0.3)]">
+                <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-6">
+                    <a 
+                        href="https://forms.gle/kfDo1pTjFtrZSBnbA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full md:w-auto bg-white text-black border-2 border-white px-8 py-3 font-vt323 text-xl md:text-2xl hover:bg-gray-200 transition-all uppercase tracking-widest font-bold shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+                    >
                         &gt; JOIN_THE_CHALLENGE
-                    </button>
+                    </a>
+                </div>
+
+                {/* FAQ Section */}
+                <div className="mt-24 max-w-5xl mx-auto pb-20">
+                    <h3 className="text-3xl md:text-4xl font-vt323 text-white mb-8 border-b border-dashed border-gray-600 pb-4">
+                        &gt; FREQUENTLY_ASKED_QUESTIONS
+                    </h3>
+                    
+                    <div className="space-y-4">
+                        {[
+                            {
+                                question: "Who can join this challenge?",
+                                answer: (
+                                    <>
+                                        All current IU and Purdue students are eligible to participate. Fill out <a href="https://forms.gle/kfDo1pTjFtrZSBnbA" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-400 underline">this form</a> to register your LeetCode profile and join the roster.
+                                    </>
+                                )
+                            },
+                            {
+                                question: "I don't see my name on the leaderboard. What should I do?",
+                                answer: "Reach out to a club member via Linkedin, and we will update your status."
+                            },
+                            {
+                                question: "What are the rules and syllabus?",
+                                answer: (
+                                    <>
+                                        You can access the full <a href="https://docs.google.com/spreadsheets/d/1p2Bl9s2NXrECScXvolCc_Z5Yhw2SP-HCOtlBrnnuZew/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-400 underline">syllabus</a> and challenge rules through <a href="https://docs.google.com/document/d/1o8qXbtJW_dAy6EEOCMV9CcGsH_efG90t6D30NROSRzw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-400 underline">this link</a>.
+                                    </>
+                                )
+                            },
+                            {
+                                question: "What if I miss a day?",
+                                answer: "You can catch up by solving the missed problem later, but daily consistency is weighted higher for the weekly leaderboard."
+                            },
+                            {
+                                question: "I am a beginner; is this for me?",
+                                answer: (
+                                    <>
+                                        Yes; the <a href="https://docs.google.com/spreadsheets/d/1p2Bl9s2NXrECScXvolCc_Z5Yhw2SP-HCOtlBrnnuZew/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-400 underline">syllabus</a> starts with foundational topics and includes video explanations for every problem.
+                                    </>
+                                )
+                            },
+                            {
+                                question: "How do I prove I solved a problem?",
+                                answer: "Our tracking system syncs with your public LeetCode profile and updates our website everyday."
+                            },
+                            {
+                                question: "Can I use any programming language?",
+                                answer: "Yes; you may use any language supported by LeetCode (Python, Java, C++, etc.)."
+                            }
+                        ].map((faq, index) => (
+                            <div 
+                                key={index}
+                                className="border border-white/20 bg-[#050505] relative"
+                            >
+                                {/* Corner brackets */}
+                                <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white"></div>
+                                <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white"></div>
+                                <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white"></div>
+                                <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white"></div>
+                                
+                                {/* Question Header */}
+                                <button
+                                    onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
+                                    className="w-full p-4 md:p-6 flex justify-between items-center gap-4 hover:bg-white/5 transition-colors group"
+                                >
+                                    <span className="font-vt323 text-lg md:text-2xl text-white text-left group-hover:text-green-500 transition-colors">
+                                        &gt; {faq.question}
+                                    </span>
+                                    <span className={`text-2xl md:text-3xl text-gray-400 transition-transform duration-300 ${openFaqIndex === index ? 'rotate-180' : ''}`}>
+                                        ▼
+                                    </span>
+                                </button>
+                                
+                                {/* Answer Content */}
+                                <div 
+                                    className={`overflow-hidden transition-all duration-300 ${
+                                        openFaqIndex === index ? 'max-h-48' : 'max-h-0'
+                                    }`}
+                                >
+                                    <div className="px-6 md:px-8 pt-6 pb-6 md:pt-8 md:pb-8 border-t border-white/10">
+                                        <p className="font-space text-gray-300 text-sm md:text-base leading-relaxed">
+                                            {faq.answer}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
