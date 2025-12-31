@@ -1,5 +1,6 @@
 titleSlug,timestamp,lang,statusDisplay,runtime,memory,id,runtime_val,memory_val,weekly_points
 best-time-to-buy-and-sell-stock-with-cooldown,2025-10-18 04:06:25,cpp,Accepted,0 ms,15 MB,Jagath_kumar_reddy_k,0.0,15.0,15.0
+cheapest-flights-within-k-stops,2025-12-30 20:12:52,cpp,Accepted,10 ms,21.1 MB,Jagath_kumar_reddy_k,,,
 clone-graph,2025-12-26 17:09:23,cpp,Accepted,0 ms,11.7 MB,Jagath_kumar_reddy_k,0.0,11.7,11.7
 coin-change,2025-08-26 21:20:01,cpp,Accepted,23 ms,17.9 MB,Jagath_kumar_reddy_k,23.0,17.9,40.9
 coin-change-ii,2025-10-18 04:26:59,cpp,Accepted,165 ms,42 MB,Jagath_kumar_reddy_k,165.0,42.0,207.0
@@ -40,6 +41,7 @@ swim-in-rising-water,2025-12-27 22:39:47,cpp,Accepted,0 ms,12.7 MB,Jagath_kumar_
 target-sum,2025-10-23 02:23:38,cpp,Accepted,30 ms,26 MB,Jagath_kumar_reddy_k,30.0,26.0,56.0
 unique-paths,2025-10-14 02:24:44,cpp,Accepted,1 ms,9.4 MB,Jagath_kumar_reddy_k,1.0,9.4,10.4
 word-break,2025-09-07 20:42:37,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0.0,10.4,10.4
+word-ladder,2025-12-30 16:22:10,cpp,Accepted,58 ms,22.7 MB,Jagath_kumar_reddy_k,,,
 add-digits,2023-04-26 02:30:32,python,Accepted,17 ms,13.3 MB,Vigneshwar_RR,17.0,13.3,30.3
 best-time-to-buy-and-sell-stock,2025-10-24 20:28:18,python3,Accepted,27 ms,27 MB,Vigneshwar_RR,27.0,27.0,54.0
 binary-search,2025-11-14 21:00:20,python3,Accepted,0 ms,18.9 MB,Vigneshwar_RR,0.0,18.9,18.9
