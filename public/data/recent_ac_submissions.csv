@@ -13,8 +13,11 @@ decode-ways,2025-08-25 00:29:42,cpp,Accepted,0 ms,8.2 MB,Jagath_kumar_reddy_k,0.
 detect-cycles-in-2d-grid,2025-11-18 06:36:44,cpp,Accepted,127 ms,214.9 MB,Jagath_kumar_reddy_k,127.0,214.9,341.9
 interleaving-string,2025-10-28 04:06:58,cpp,Accepted,5 ms,9 MB,Jagath_kumar_reddy_k,5.0,9.0,14.0
 is-graph-bipartite,2025-11-16 22:53:37,cpp,Accepted,0 ms,18 MB,Jagath_kumar_reddy_k,0.0,18.0,18.0
+k-closest-points-to-origin,2026-01-01 18:00:55,cpp,Accepted,22 ms,61.8 MB,Jagath_kumar_reddy_k,,,
 kth-largest-element-in-a-stream,2025-11-02 23:46:02,cpp,Accepted,0 ms,33 MB,Jagath_kumar_reddy_k,0.0,33.0,33.0
+kth-largest-element-in-an-array,2026-01-01 18:12:30,cpp,Accepted,0 ms,59.4 MB,Jagath_kumar_reddy_k,,,
 last-person-to-fit-in-the-bus,2025-12-18 03:39:00,mysql,Accepted,809 ms,0.0B,Jagath_kumar_reddy_k,809.0,0.0,809.0
+last-stone-weight,2026-01-01 17:13:45,cpp,Accepted,0 ms,10 MB,Jagath_kumar_reddy_k,,,
 longest-common-subsequence,2025-10-15 15:27:35,cpp,Accepted,39 ms,27.6 MB,Jagath_kumar_reddy_k,39.0,27.6,66.6
 longest-turbulent-subarray,2026-01-01 05:36:07,cpp,Accepted,0 ms,44.1 MB,Jagath_kumar_reddy_k,,,
 max-area-of-island,2025-11-16 05:05:39,cpp,Accepted,0 ms,28.2 MB,Jagath_kumar_reddy_k,0.0,28.2,28.2
@@ -44,6 +47,7 @@ subsets-ii,2025-09-04 01:28:01,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0.
 surrounded-regions,2025-12-11 16:12:43,cpp,Accepted,11 ms,20.7 MB,Jagath_kumar_reddy_k,11.0,20.7,31.7
 swim-in-rising-water,2025-12-27 22:39:47,cpp,Accepted,0 ms,12.7 MB,Jagath_kumar_reddy_k,0.0,12.7,12.7
 target-sum,2025-10-23 02:23:38,cpp,Accepted,30 ms,26 MB,Jagath_kumar_reddy_k,30.0,26.0,56.0
+task-scheduler,2026-01-01 23:05:41,cpp,Accepted,19 ms,42.9 MB,Jagath_kumar_reddy_k,,,
 unique-paths,2025-10-14 02:24:44,cpp,Accepted,1 ms,9.4 MB,Jagath_kumar_reddy_k,1.0,9.4,10.4
 word-break,2025-09-07 20:42:37,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0.0,10.4,10.4
 word-ladder,2025-12-30 16:22:10,cpp,Accepted,58 ms,22.7 MB,Jagath_kumar_reddy_k,,,
@@ -104,6 +108,7 @@ palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madha
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 reverse-linked-list,2025-11-07 21:42:53,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madhavan02,7.0,19.3,26.3
+two-sum,2026-01-01 23:16:48,python3,Accepted,4 ms,18.8 MB,madhavan02,,,
 two-sum-ii-input-array-is-sorted,2025-11-07 20:39:57,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 unique-paths,2025-11-04 02:32:15,python3,Accepted,3 ms,17.8 MB,madhavan02,3.0,17.8,20.8
 word-break,2025-11-02 22:44:26,python3,Accepted,4 ms,17.9 MB,madhavan02,4.0,17.9,21.9
