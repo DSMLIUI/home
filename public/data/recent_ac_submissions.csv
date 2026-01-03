@@ -10,7 +10,9 @@ count-salary-categories,2025-12-18 04:00:27,mysql,Accepted,1595 ms,0.0B,Jagath_k
 course-schedule,2025-12-17 21:31:11,cpp,Accepted,9 ms,20.2 MB,Jagath_kumar_reddy_k,9.0,20.2,29.2
 course-schedule-ii,2025-12-22 15:48:07,cpp,Accepted,7 ms,18.3 MB,Jagath_kumar_reddy_k,7.0,18.3,25.3
 decode-ways,2025-08-25 00:29:42,cpp,Accepted,0 ms,8.2 MB,Jagath_kumar_reddy_k,0.0,8.2,8.2
+design-twitter,2026-01-02 20:10:49,cpp,Accepted,1 ms,57.4 MB,Jagath_kumar_reddy_k,,,
 detect-cycles-in-2d-grid,2025-11-18 06:36:44,cpp,Accepted,127 ms,214.9 MB,Jagath_kumar_reddy_k,127.0,214.9,341.9
+find-median-from-data-stream,2026-01-03 04:03:00,cpp,Accepted,64 ms,148.7 MB,Jagath_kumar_reddy_k,,,
 interleaving-string,2025-10-28 04:06:58,cpp,Accepted,5 ms,9 MB,Jagath_kumar_reddy_k,5.0,9.0,14.0
 is-graph-bipartite,2025-11-16 22:53:37,cpp,Accepted,0 ms,18 MB,Jagath_kumar_reddy_k,0.0,18.0,18.0
 k-closest-points-to-origin,2026-01-01 18:00:55,cpp,Accepted,22 ms,61.8 MB,Jagath_kumar_reddy_k,,,
