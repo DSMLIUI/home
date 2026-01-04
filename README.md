@@ -11,7 +11,7 @@ A lightweight website for the DSML Club showcasing members, a LeetCode leaderboa
 
 - Leaderboard driven by CSV data in `public/data/` (see `leetcode_leaderboard.csv`).
 - Members and people pages with headshots in `public/headshots/`.
-- Small Python utility `leetcode_leaderboard.py` (requirements listed in `requirements.txt`) to help build/update leaderboard data.
+- Small Python utility `leetcode_leaderboard.py` (requirements listed in `requirements.txt`) to help build/update leaderboard data through Github Actions.
 
 ## Quick start
 
@@ -33,10 +33,3 @@ npm run dev
 pip install -r requirements.txt
 python leetcode_leaderboard.py
 ```
-
-## Notes
-
-- The hero image is loaded from `public/headshots/dsml logo.png` — ensure the path remains unchanged if you move image files.
-- The UI was designed with the assistance of Google AI Studio; the Framer reference above was used as inspiration for layout and interactions.
-
-If you'd like, I can also add a short CONTRIBUTING section or CI workflow next.
