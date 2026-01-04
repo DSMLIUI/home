@@ -1,4 +1,4 @@
-![DSML Logo](public/DSML_logo.png)
+![DSML Logo](public/headshots/DSML_logo.png)
 
 # DSML Club — Website
 
@@ -11,7 +11,7 @@ A lightweight website for the DSML Club showcasing members, a LeetCode leaderboa
 
 - Leaderboard driven by CSV data in `public/data/` (see `leetcode_leaderboard.csv`).
 - Members and people pages with headshots in `public/headshots/`.
-- Small Python utility `leetcode_leaderboard.py` (requirements listed in `requirements.txt`) to help build/update leaderboard data.
+- Small Python utility `leetcode_leaderboard.py` (requirements listed in `requirements.txt`) to help build/update leaderboard data through Github Actions.
 
 ## Quick start
 
