@@ -18,6 +18,7 @@ is-graph-bipartite,2025-11-16 22:53:37,cpp,Accepted,0 ms,18 MB,Jagath_kumar_redd
 k-closest-points-to-origin,2026-01-01 18:00:55,cpp,Accepted,22 ms,61.8 MB,Jagath_kumar_reddy_k,,,
 kth-largest-element-in-a-stream,2025-11-02 23:46:02,cpp,Accepted,0 ms,33 MB,Jagath_kumar_reddy_k,0.0,33.0,33.0
 kth-largest-element-in-an-array,2026-01-01 18:12:30,cpp,Accepted,0 ms,59.4 MB,Jagath_kumar_reddy_k,,,
+largest-even-number,2026-01-04 03:35:51,python3,Accepted,0 ms,17.4 MB,Jagath_kumar_reddy_k,,,
 last-person-to-fit-in-the-bus,2025-12-18 03:39:00,mysql,Accepted,809 ms,0.0B,Jagath_kumar_reddy_k,809.0,0.0,809.0
 last-stone-weight,2026-01-01 17:13:45,cpp,Accepted,0 ms,10 MB,Jagath_kumar_reddy_k,,,
 longest-common-subsequence,2025-10-15 15:27:35,cpp,Accepted,39 ms,27.6 MB,Jagath_kumar_reddy_k,39.0,27.6,66.6
@@ -44,6 +45,7 @@ reconstruct-itinerary,2025-12-25 08:03:18,cpp,Accepted,12 ms,21.1 MB,Jagath_kuma
 redundant-connection,2025-12-18 01:19:47,cpp,Accepted,4 ms,14.4 MB,Jagath_kumar_reddy_k,4.0,14.4,18.4
 regular-expression-matching,2025-11-02 22:22:03,cpp,Accepted,3 ms,9.1 MB,Jagath_kumar_reddy_k,3.0,9.1,12.1
 restore-finishing-order,2025-09-05 22:14:00,cpp,Accepted,0 ms,50.2 MB,Jagath_kumar_reddy_k,0.0,50.2,50.2
+reverse-string-prefix,2026-01-03 14:36:49,python3,Accepted,0 ms,17.5 MB,Jagath_kumar_reddy_k,,,
 rotting-oranges,2025-11-16 00:27:54,cpp,Accepted,0 ms,17.1 MB,Jagath_kumar_reddy_k,0.0,17.1,17.1
 subsets-ii,2025-09-04 01:28:01,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0.0,10.6,10.6
 surrounded-regions,2025-12-11 16:12:43,cpp,Accepted,11 ms,20.7 MB,Jagath_kumar_reddy_k,11.0,20.7,31.7
@@ -105,6 +107,7 @@ interleaving-string,2025-11-09 00:18:23,python3,Accepted,52 ms,17.9 MB,madhavan0
 longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,madhavan02,459.0,42.9,501.9
 longest-increasing-subsequence,2025-11-02 23:00:54,python3,Accepted,1782 ms,17.8 MB,madhavan02,1782.0,17.8,1799.8
 longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,madhavan02,363.0,18.0,381.0
+longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
