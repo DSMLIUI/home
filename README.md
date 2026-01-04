@@ -1,4 +1,4 @@
-![DSML Logo](public/headshots/DSML_logo.png)
+![DSML Logo](public/DSML_logo.png)
 
 # DSML Club — Website
 
