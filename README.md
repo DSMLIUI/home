@@ -1,4 +1,4 @@
-![DSML Logo](public/headshots/dsml%20logo.png)
+![DSML Logo](public/DSML_logo.png)
 
 # DSML Club — Website
 
@@ -33,10 +33,3 @@ npm run dev
 pip install -r requirements.txt
 python leetcode_leaderboard.py
 ```
-
-## Notes
-
-- The hero image is loaded from `public/headshots/dsml logo.png` — ensure the path remains unchanged if you move image files.
-- The UI was designed with the assistance of Google AI Studio; the Framer reference above was used as inspiration for layout and interactions.
-
-If you'd like, I can also add a short CONTRIBUTING section or CI workflow next.
