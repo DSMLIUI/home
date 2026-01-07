@@ -24,6 +24,7 @@ kth-largest-element-in-an-array,2026-01-01 18:12:30,cpp,Accepted,0 ms,59.4 MB,Ja
 largest-even-number,2026-01-04 03:35:51,python3,Accepted,0 ms,17.4 MB,Jagath_kumar_reddy_k,,,
 last-person-to-fit-in-the-bus,2025-12-18 03:39:00,mysql,Accepted,809 ms,0.0B,Jagath_kumar_reddy_k,809.0,0.0,809.0
 last-stone-weight,2026-01-01 17:13:45,cpp,Accepted,0 ms,10 MB,Jagath_kumar_reddy_k,,,
+letter-combinations-of-a-phone-number,2026-01-07 00:40:50,cpp,Accepted,0 ms,9 MB,Jagath_kumar_reddy_k,,,
 longest-common-subsequence,2025-10-15 15:27:35,cpp,Accepted,39 ms,27.6 MB,Jagath_kumar_reddy_k,39.0,27.6,66.6
 longest-consecutive-sequence,2026-01-05 04:22:29,cpp,Accepted,79 ms,89.1 MB,Jagath_kumar_reddy_k,,,
 longest-turbulent-subarray,2026-01-01 05:36:07,cpp,Accepted,0 ms,44.1 MB,Jagath_kumar_reddy_k,,,
@@ -40,8 +41,10 @@ minimum-cost-to-acquire-required-items,2025-12-28 18:50:48,cpp,Accepted,0 ms,9.1
 minimum-cost-to-cut-a-stick,2025-12-22 02:05:28,cpp,Accepted,11 ms,14.1 MB,Jagath_kumar_reddy_k,11.0,14.1,25.1
 minimum-deletion-cost-to-make-all-characters-equal,2025-12-21 03:44:39,python3,Accepted,363 ms,30.5 MB,Jagath_kumar_reddy_k,363.0,30.5,393.5
 mirror-distance-of-an-integer,2025-12-21 03:34:51,python3,Accepted,0 ms,17.3 MB,Jagath_kumar_reddy_k,0.0,17.3,17.3
+n-queens,2026-01-07 02:23:26,cpp,Accepted,0 ms,10.1 MB,Jagath_kumar_reddy_k,,,
 network-delay-time,2025-12-23 16:50:28,cpp,Accepted,94 ms,48 MB,Jagath_kumar_reddy_k,94.0,48.0,142.0
 number-of-islands,2025-11-16 01:21:38,cpp,Accepted,43 ms,22.4 MB,Jagath_kumar_reddy_k,43.0,22.4,65.4
+palindrome-partitioning,2026-01-06 18:23:18,cpp,Accepted,26 ms,53.5 MB,Jagath_kumar_reddy_k,,,
 palindromic-substrings,2025-08-24 17:26:47,cpp,Accepted,0 ms,8.7 MB,Jagath_kumar_reddy_k,0.0,8.7,8.7
 permutations,2025-09-03 20:55:27,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0.0,10.4,10.4
 product-of-array-except-self,2026-01-04 21:46:13,cpp,Accepted,0 ms,40.3 MB,Jagath_kumar_reddy_k,,,
@@ -121,6 +124,7 @@ longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,m
 longest-increasing-subsequence,2025-11-02 23:00:54,python3,Accepted,1782 ms,17.8 MB,madhavan02,1782.0,17.8,1799.8
 longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,madhavan02,363.0,18.0,381.0
 longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
+maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22.9 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
