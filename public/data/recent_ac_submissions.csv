@@ -18,6 +18,8 @@ generate-parentheses,2026-01-05 17:03:51,cpp,Accepted,0 ms,12.9 MB,Jagath_kumar_
 group-anagrams,2026-01-04 20:50:03,cpp,Accepted,15 ms,25 MB,Jagath_kumar_reddy_k,,,
 interleaving-string,2025-10-28 04:06:58,cpp,Accepted,5 ms,9 MB,Jagath_kumar_reddy_k,5.0,9.0,14.0
 is-graph-bipartite,2025-11-16 22:53:37,cpp,Accepted,0 ms,18 MB,Jagath_kumar_reddy_k,0.0,18.0,18.0
+jump-game,2026-01-07 19:29:44,cpp,Accepted,0 ms,52.1 MB,Jagath_kumar_reddy_k,,,
+jump-game-ii,2026-01-07 20:27:26,cpp,Accepted,33 ms,21.7 MB,Jagath_kumar_reddy_k,,,
 k-closest-points-to-origin,2026-01-01 18:00:55,cpp,Accepted,22 ms,61.8 MB,Jagath_kumar_reddy_k,,,
 kth-largest-element-in-a-stream,2025-11-02 23:46:02,cpp,Accepted,0 ms,33 MB,Jagath_kumar_reddy_k,0.0,33.0,33.0
 kth-largest-element-in-an-array,2026-01-01 18:12:30,cpp,Accepted,0 ms,59.4 MB,Jagath_kumar_reddy_k,,,
@@ -127,6 +129,7 @@ longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accept
 maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22.9 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
+path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 reverse-linked-list,2025-11-07 21:42:53,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madhavan02,7.0,19.3,26.3
