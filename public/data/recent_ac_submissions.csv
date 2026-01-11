@@ -7,6 +7,8 @@ coin-change-ii,2025-10-18 04:26:59,cpp,Accepted,165 ms,42 MB,Jagath_kumar_reddy_
 combination-sum,2025-08-26 01:04:39,cpp,Accepted,3 ms,17.9 MB,Jagath_kumar_reddy_k,3.0,17.9,20.9
 combination-sum-ii,2025-09-02 03:57:58,cpp,Accepted,3 ms,16 MB,Jagath_kumar_reddy_k,3.0,16.0,19.0
 contains-duplicate,2026-01-04 19:48:06,cpp,Accepted,47 ms,90.7 MB,Jagath_kumar_reddy_k,,,
+count-caesar-cipher-pairs,2026-01-11 03:44:44,cpp,Accepted,683 ms,107.9 MB,Jagath_kumar_reddy_k,,,
+count-residue-prefixes,2026-01-11 02:43:14,cpp,Accepted,3 ms,10.4 MB,Jagath_kumar_reddy_k,,,
 count-salary-categories,2025-12-18 04:00:27,mysql,Accepted,1595 ms,0.0B,Jagath_kumar_reddy_k,1595.0,0.0,1595.0
 course-schedule,2025-12-17 21:31:11,cpp,Accepted,9 ms,20.2 MB,Jagath_kumar_reddy_k,9.0,20.2,29.2
 course-schedule-ii,2025-12-22 15:48:07,cpp,Accepted,7 ms,18.3 MB,Jagath_kumar_reddy_k,7.0,18.3,25.3
@@ -123,6 +125,7 @@ climbing-stairs,2026-01-06 00:55:00,python3,Accepted,0 ms,16.9 MB,madhavan02,,,
 coin-change,2025-11-01 19:15:24,python3,Accepted,740 ms,18.1 MB,madhavan02,740.0,18.1,758.1
 coin-change-ii,2025-11-04 23:05:03,python3,Accepted,187 ms,17.8 MB,madhavan02,187.0,17.8,204.8
 container-with-most-water,2025-11-07 20:58:13,python3,Accepted,35 ms,28.4 MB,madhavan02,35.0,28.4,63.4
+contains-duplicate,2026-01-11 10:05:25,python3,Accepted,12 ms,32.4 MB,madhavan02,,,
 decode-ways,2025-11-01 18:18:41,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 interleaving-string,2025-11-09 00:18:23,python3,Accepted,52 ms,17.9 MB,madhavan02,52.0,17.9,69.9
 longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,madhavan02,459.0,42.9,501.9
@@ -133,6 +136,7 @@ maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
+regular-expression-matching,2026-01-10 23:24:55,python3,Accepted,8 ms,19.4 MB,madhavan02,,,
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 reverse-linked-list,2025-11-07 21:42:53,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madhavan02,7.0,19.3,26.3
