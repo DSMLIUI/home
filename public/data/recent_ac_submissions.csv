@@ -42,6 +42,7 @@ maximum-score-of-a-split,2025-12-28 18:10:51,cpp,Accepted,7 ms,156.1 MB,Jagath_k
 maximum-score-of-spliced-array,2026-01-01 00:03:17,cpp,Accepted,1 ms,86.4 MB,Jagath_kumar_reddy_k,,,
 maximum-subarray,2025-12-31 23:14:27,cpp,Accepted,0 ms,71.6 MB,Jagath_kumar_reddy_k,,,
 maximum-sum-with-at-most-k-elements,2025-09-11 01:07:21,cpp,Accepted,95 ms,107.9 MB,Jagath_kumar_reddy_k,95.0,107.9,202.9
+merge-triplets-to-form-target-triplet,2026-01-11 16:48:24,cpp,Accepted,0 ms,150.6 MB,Jagath_kumar_reddy_k,,,
 min-cost-to-connect-all-points,2025-12-26 05:41:36,cpp,Accepted,463 ms,41.4 MB,Jagath_kumar_reddy_k,463.0,41.4,504.4
 minimum-cost-to-acquire-required-items,2025-12-28 18:50:48,cpp,Accepted,0 ms,9.1 MB,Jagath_kumar_reddy_k,0.0,9.1,9.1
 minimum-cost-to-cut-a-stick,2025-12-22 02:05:28,cpp,Accepted,11 ms,14.1 MB,Jagath_kumar_reddy_k,11.0,14.1,25.1
