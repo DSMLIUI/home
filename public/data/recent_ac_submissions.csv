@@ -130,6 +130,7 @@ contains-duplicate,2026-01-11 10:05:25,python3,Accepted,12 ms,32.4 MB,madhavan02
 decode-ways,2025-11-01 18:18:41,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 interleaving-string,2025-11-09 00:18:23,python3,Accepted,52 ms,17.9 MB,madhavan02,52.0,17.9,69.9
 longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,madhavan02,459.0,42.9,501.9
+longest-consecutive-sequence,2026-01-13 00:59:18,python3,Accepted,57 ms,36.6 MB,madhavan02,,,
 longest-increasing-subsequence,2025-11-02 23:00:54,python3,Accepted,1782 ms,17.8 MB,madhavan02,1782.0,17.8,1799.8
 longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,madhavan02,363.0,18.0,381.0
 longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
@@ -137,13 +138,16 @@ maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
+product-of-array-except-self,2026-01-12 22:35:26,python3,Accepted,26 ms,27 MB,madhavan02,,,
 regular-expression-matching,2026-01-10 23:24:55,python3,Accepted,8 ms,19.4 MB,madhavan02,,,
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 reverse-linked-list,2025-11-07 21:42:53,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
+rotting-oranges,2026-01-12 22:08:08,python3,Accepted,1 ms,19.4 MB,madhavan02,,,
 squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madhavan02,7.0,19.3,26.3
 two-sum,2026-01-01 23:16:48,python3,Accepted,4 ms,18.8 MB,madhavan02,,,
 two-sum-ii-input-array-is-sorted,2025-11-07 20:39:57,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 unique-paths,2025-11-04 02:32:15,python3,Accepted,3 ms,17.8 MB,madhavan02,3.0,17.8,20.8
+valid-sudoku,2026-01-12 17:27:25,python3,Accepted,5 ms,19.5 MB,madhavan02,,,
 word-break,2025-11-02 22:44:26,python3,Accepted,4 ms,17.9 MB,madhavan02,4.0,17.9,21.9
 average-selling-price,2025-09-13 18:16:58,postgresql,Accepted,227 ms,0.0B,user2464b,227.0,0.0,227.0
 average-time-of-process-per-machine,2025-04-24 04:41:31,postgresql,Accepted,157 ms,0.0B,user2464b,157.0,0.0,157.0
