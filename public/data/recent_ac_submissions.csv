@@ -136,6 +136,7 @@ longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,
 longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
 maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22.9 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
+move-zeroes,2026-01-13 15:42:50,python3,Accepted,9 ms,20.6 MB,madhavan02,,,
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
 product-of-array-except-self,2026-01-12 22:35:26,python3,Accepted,26 ms,27 MB,madhavan02,,,
@@ -147,6 +148,7 @@ squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madh
 two-sum,2026-01-01 23:16:48,python3,Accepted,4 ms,18.8 MB,madhavan02,,,
 two-sum-ii-input-array-is-sorted,2025-11-07 20:39:57,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 unique-paths,2025-11-04 02:32:15,python3,Accepted,3 ms,17.8 MB,madhavan02,3.0,17.8,20.8
+valid-palindrome,2026-01-13 15:21:13,python3,Accepted,11 ms,19.6 MB,madhavan02,,,
 valid-sudoku,2026-01-12 17:27:25,python3,Accepted,5 ms,19.5 MB,madhavan02,,,
 word-break,2025-11-02 22:44:26,python3,Accepted,4 ms,17.9 MB,madhavan02,4.0,17.9,21.9
 average-selling-price,2025-09-13 18:16:58,postgresql,Accepted,227 ms,0.0B,user2464b,227.0,0.0,227.0
