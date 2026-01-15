@@ -121,6 +121,7 @@ separate-black-and-white-balls,2024-10-15 04:58:51,cpp,Accepted,30 ms,15.5 MB,_g
 snakes-and-ladders,2025-05-31 03:58:04,cpp,Accepted,0 ms,17.7 MB,_greenleaf,0.0,17.7,17.7
 special-array-i,2025-02-01 04:12:46,cpp,Accepted,0 ms,27.7 MB,_greenleaf,0.0,27.7,27.7
 add-two-numbers,2026-01-09 00:30:20,python,Accepted,0 ms,12.6 MB,madhavan02,,,
+balanced-binary-tree,2026-01-15 11:46:56,python,Accepted,4 ms,18 MB,madhavan02,,,
 best-time-to-buy-and-sell-stock-with-cooldown,2025-11-04 15:13:21,python3,Accepted,0 ms,18.2 MB,madhavan02,0.0,18.2,18.2
 climbing-stairs,2026-01-06 00:55:00,python3,Accepted,0 ms,16.9 MB,madhavan02,,,
 coin-change,2025-11-01 19:15:24,python3,Accepted,740 ms,18.1 MB,madhavan02,740.0,18.1,758.1
@@ -136,6 +137,7 @@ longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,
 longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
 maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22.9 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
+minimum-size-subarray-sum,2026-01-15 11:37:22,python3,Accepted,7 ms,30.6 MB,madhavan02,,,
 move-zeroes,2026-01-13 15:42:50,python3,Accepted,9 ms,20.6 MB,madhavan02,,,
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
