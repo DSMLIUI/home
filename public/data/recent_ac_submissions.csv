@@ -33,6 +33,7 @@ last-stone-weight,2026-01-01 17:13:45,cpp,Accepted,0 ms,10 MB,Jagath_kumar_reddy
 letter-combinations-of-a-phone-number,2026-01-07 00:40:50,cpp,Accepted,0 ms,9 MB,Jagath_kumar_reddy_k,,,
 longest-common-subsequence,2025-10-15 15:27:35,cpp,Accepted,39 ms,27.6 MB,Jagath_kumar_reddy_k,39.0,27.6,66.6
 longest-consecutive-sequence,2026-01-05 04:22:29,cpp,Accepted,79 ms,89.1 MB,Jagath_kumar_reddy_k,,,
+longest-increasing-path-in-a-matrix,2026-01-15 19:00:57,cpp,Accepted,0 ms,19.7 MB,Jagath_kumar_reddy_k,,,
 longest-turbulent-subarray,2026-01-01 05:36:07,cpp,Accepted,0 ms,44.1 MB,Jagath_kumar_reddy_k,,,
 max-area-of-island,2025-11-16 05:05:39,cpp,Accepted,0 ms,28.2 MB,Jagath_kumar_reddy_k,0.0,28.2,28.2
 maximum-absolute-sum-of-any-subarray,2026-01-01 03:56:08,cpp,Accepted,0 ms,45.1 MB,Jagath_kumar_reddy_k,,,
@@ -128,6 +129,7 @@ coin-change,2025-11-01 19:15:24,python3,Accepted,740 ms,18.1 MB,madhavan02,740.0
 coin-change-ii,2025-11-04 23:05:03,python3,Accepted,187 ms,17.8 MB,madhavan02,187.0,17.8,204.8
 container-with-most-water,2025-11-07 20:58:13,python3,Accepted,35 ms,28.4 MB,madhavan02,35.0,28.4,63.4
 contains-duplicate,2026-01-11 10:05:25,python3,Accepted,12 ms,32.4 MB,madhavan02,,,
+daily-temperatures,2026-01-16 00:42:14,python3,Accepted,107 ms,35.1 MB,madhavan02,,,
 decode-ways,2025-11-01 18:18:41,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 interleaving-string,2025-11-09 00:18:23,python3,Accepted,52 ms,17.9 MB,madhavan02,52.0,17.9,69.9
 longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,madhavan02,459.0,42.9,501.9
@@ -139,6 +141,9 @@ maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
 minimum-size-subarray-sum,2026-01-15 11:37:22,python3,Accepted,7 ms,30.6 MB,madhavan02,,,
 move-zeroes,2026-01-13 15:42:50,python3,Accepted,9 ms,20.6 MB,madhavan02,,,
+next-greater-element-i,2026-01-16 01:46:18,python3,Accepted,0 ms,19.5 MB,madhavan02,,,
+next-greater-element-ii,2026-01-16 03:20:42,python3,Accepted,27 ms,21.1 MB,madhavan02,,,
+online-stock-span,2026-01-16 03:50:12,python3,Accepted,60 ms,24.4 MB,madhavan02,,,
 palindromic-substrings,2025-10-31 20:10:43,python3,Accepted,124 ms,17.4 MB,madhavan02,124.0,17.4,141.4
 path-sum,2026-01-07 23:58:19,python3,Accepted,3 ms,20.3 MB,madhavan02,,,
 product-of-array-except-self,2026-01-12 22:35:26,python3,Accepted,26 ms,27 MB,madhavan02,,,
