@@ -15,6 +15,7 @@ course-schedule-ii,2025-12-22 15:48:07,cpp,Accepted,7 ms,18.3 MB,Jagath_kumar_re
 decode-ways,2025-08-25 00:29:42,cpp,Accepted,0 ms,8.2 MB,Jagath_kumar_reddy_k,0.0,8.2,8.2
 design-twitter,2026-01-02 20:10:49,cpp,Accepted,1 ms,57.4 MB,Jagath_kumar_reddy_k,,,
 detect-cycles-in-2d-grid,2025-11-18 06:36:44,cpp,Accepted,127 ms,214.9 MB,Jagath_kumar_reddy_k,127.0,214.9,341.9
+distinct-subsequences,2026-01-16 17:08:42,cpp,Accepted,37 ms,44.2 MB,Jagath_kumar_reddy_k,,,
 find-median-from-data-stream,2026-01-03 04:03:00,cpp,Accepted,64 ms,148.7 MB,Jagath_kumar_reddy_k,,,
 gas-station,2026-01-08 17:56:17,cpp,Accepted,0 ms,109.8 MB,Jagath_kumar_reddy_k,,,
 generate-parentheses,2026-01-05 17:03:51,cpp,Accepted,0 ms,12.9 MB,Jagath_kumar_reddy_k,,,
@@ -124,6 +125,7 @@ special-array-i,2025-02-01 04:12:46,cpp,Accepted,0 ms,27.7 MB,_greenleaf,0.0,27.
 add-two-numbers,2026-01-09 00:30:20,python,Accepted,0 ms,12.6 MB,madhavan02,,,
 balanced-binary-tree,2026-01-15 11:46:56,python,Accepted,4 ms,18 MB,madhavan02,,,
 best-time-to-buy-and-sell-stock-with-cooldown,2025-11-04 15:13:21,python3,Accepted,0 ms,18.2 MB,madhavan02,0.0,18.2,18.2
+binary-search,2026-01-16 21:05:40,python3,Accepted,0 ms,20.7 MB,madhavan02,,,
 climbing-stairs,2026-01-06 00:55:00,python3,Accepted,0 ms,16.9 MB,madhavan02,,,
 coin-change,2025-11-01 19:15:24,python3,Accepted,740 ms,18.1 MB,madhavan02,740.0,18.1,758.1
 coin-change-ii,2025-11-04 23:05:03,python3,Accepted,187 ms,17.8 MB,madhavan02,187.0,17.8,204.8
@@ -131,6 +133,8 @@ container-with-most-water,2025-11-07 20:58:13,python3,Accepted,35 ms,28.4 MB,mad
 contains-duplicate,2026-01-11 10:05:25,python3,Accepted,12 ms,32.4 MB,madhavan02,,,
 daily-temperatures,2026-01-16 00:42:14,python3,Accepted,107 ms,35.1 MB,madhavan02,,,
 decode-ways,2025-11-01 18:18:41,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
+find-minimum-in-rotated-sorted-array,2026-01-17 02:26:28,python3,Accepted,0 ms,19.5 MB,madhavan02,,,
+find-minimum-in-rotated-sorted-array-ii,2026-01-17 02:53:19,python3,Accepted,0 ms,19.6 MB,madhavan02,,,
 interleaving-string,2025-11-09 00:18:23,python3,Accepted,52 ms,17.9 MB,madhavan02,52.0,17.9,69.9
 longest-common-subsequence,2025-11-04 03:13:17,python3,Accepted,459 ms,42.9 MB,madhavan02,459.0,42.9,501.9
 longest-consecutive-sequence,2026-01-13 00:59:18,python3,Accepted,57 ms,36.6 MB,madhavan02,,,
@@ -151,6 +155,7 @@ regular-expression-matching,2026-01-10 23:24:55,python3,Accepted,8 ms,19.4 MB,ma
 remove-duplicates-from-sorted-list,2025-11-07 17:50:36,python3,Accepted,0 ms,17.7 MB,madhavan02,0.0,17.7,17.7
 reverse-linked-list,2025-11-07 21:42:53,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
 rotting-oranges,2026-01-12 22:08:08,python3,Accepted,1 ms,19.4 MB,madhavan02,,,
+search-insert-position,2026-01-16 21:20:59,python3,Accepted,0 ms,20 MB,madhavan02,,,
 squares-of-a-sorted-array,2025-11-07 15:21:22,python3,Accepted,7 ms,19.3 MB,madhavan02,7.0,19.3,26.3
 two-sum,2026-01-01 23:16:48,python3,Accepted,4 ms,18.8 MB,madhavan02,,,
 two-sum-ii-input-array-is-sorted,2025-11-07 20:39:57,python3,Accepted,0 ms,18.5 MB,madhavan02,0.0,18.5,18.5
