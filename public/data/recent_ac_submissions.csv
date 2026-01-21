@@ -78,6 +78,7 @@ two-sum,2026-01-04 20:10:22,cpp,Accepted,0 ms,14.7 MB,Jagath_kumar_reddy_k,,,
 two-sum-ii-input-array-is-sorted,2026-01-04 20:18:25,cpp,Accepted,0 ms,19.4 MB,Jagath_kumar_reddy_k,,,
 unique-paths,2025-10-14 02:24:44,cpp,Accepted,1 ms,9.4 MB,Jagath_kumar_reddy_k,1.0,9.4,10.4
 valid-anagram,2026-01-04 19:55:27,cpp,Accepted,0 ms,9.6 MB,Jagath_kumar_reddy_k,,,
+valid-parenthesis-string,2026-01-21 00:04:27,cpp,Accepted,0 ms,8 MB,Jagath_kumar_reddy_k,,,
 valid-sudoku,2026-01-05 01:12:48,cpp,Accepted,0 ms,21.7 MB,Jagath_kumar_reddy_k,,,
 vowel-consonant-score,2026-01-18 02:37:08,cpp,Accepted,0 ms,9.3 MB,Jagath_kumar_reddy_k,,,
 word-break,2025-09-07 20:42:37,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0.0,10.4,10.4
