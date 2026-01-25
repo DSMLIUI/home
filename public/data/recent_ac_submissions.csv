@@ -18,6 +18,7 @@ design-twitter,2026-01-02 20:10:49,cpp,Accepted,1 ms,57.4 MB,Jagath_kumar_reddy_
 detect-cycles-in-2d-grid,2025-11-18 06:36:44,cpp,Accepted,127 ms,214.9 MB,Jagath_kumar_reddy_k,127.0,214.9,341.9
 distinct-subsequences,2026-01-16 17:08:42,cpp,Accepted,37 ms,44.2 MB,Jagath_kumar_reddy_k,,,
 find-median-from-data-stream,2026-01-03 04:03:00,cpp,Accepted,64 ms,148.7 MB,Jagath_kumar_reddy_k,,,
+find-the-xor-of-numbers-which-appear-twice,2026-01-24 18:32:02,cpp,Accepted,0 ms,27.6 MB,Jagath_kumar_reddy_k,,,
 gas-station,2026-01-08 17:56:17,cpp,Accepted,0 ms,109.8 MB,Jagath_kumar_reddy_k,,,
 generate-parentheses,2026-01-05 17:03:51,cpp,Accepted,0 ms,12.9 MB,Jagath_kumar_reddy_k,,,
 group-anagrams,2026-01-04 20:50:03,cpp,Accepted,15 ms,25 MB,Jagath_kumar_reddy_k,,,
@@ -52,6 +53,7 @@ min-cost-to-connect-all-points,2025-12-26 05:41:36,cpp,Accepted,463 ms,41.4 MB,J
 minimum-cost-to-acquire-required-items,2025-12-28 18:50:48,cpp,Accepted,0 ms,9.1 MB,Jagath_kumar_reddy_k,0.0,9.1,9.1
 minimum-cost-to-cut-a-stick,2025-12-22 02:05:28,cpp,Accepted,11 ms,14.1 MB,Jagath_kumar_reddy_k,11.0,14.1,25.1
 minimum-deletion-cost-to-make-all-characters-equal,2025-12-21 03:44:39,python3,Accepted,363 ms,30.5 MB,Jagath_kumar_reddy_k,363.0,30.5,393.5
+minimum-prefix-removal-to-make-array-strictly-increasing,2026-01-25 02:34:07,cpp,Accepted,0 ms,193.3 MB,Jagath_kumar_reddy_k,,,
 mirror-distance-of-an-integer,2025-12-21 03:34:51,python3,Accepted,0 ms,17.3 MB,Jagath_kumar_reddy_k,0.0,17.3,17.3
 n-queens,2026-01-07 02:23:26,cpp,Accepted,0 ms,10.1 MB,Jagath_kumar_reddy_k,,,
 network-delay-time,2025-12-23 16:50:28,cpp,Accepted,94 ms,48 MB,Jagath_kumar_reddy_k,94.0,48.0,142.0
@@ -67,6 +69,7 @@ redundant-connection,2025-12-18 01:19:47,cpp,Accepted,4 ms,14.4 MB,Jagath_kumar_
 regular-expression-matching,2025-11-02 22:22:03,cpp,Accepted,3 ms,9.1 MB,Jagath_kumar_reddy_k,3.0,9.1,12.1
 restore-finishing-order,2025-09-05 22:14:00,cpp,Accepted,0 ms,50.2 MB,Jagath_kumar_reddy_k,0.0,50.2,50.2
 reverse-string-prefix,2026-01-03 14:36:49,python3,Accepted,0 ms,17.5 MB,Jagath_kumar_reddy_k,,,
+rotate-non-negative-elements,2026-01-25 03:03:29,cpp,Accepted,29 ms,310.6 MB,Jagath_kumar_reddy_k,,,
 rotting-oranges,2025-11-16 00:27:54,cpp,Accepted,0 ms,17.1 MB,Jagath_kumar_reddy_k,0.0,17.1,17.1
 single-number,2026-01-05 00:52:16,cpp,Accepted,0 ms,21 MB,Jagath_kumar_reddy_k,,,
 subsets-ii,2025-09-04 01:28:01,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0.0,10.6,10.6
