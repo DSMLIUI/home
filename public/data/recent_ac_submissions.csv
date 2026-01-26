@@ -63,6 +63,7 @@ palindromic-substrings,2025-08-24 17:26:47,cpp,Accepted,0 ms,8.7 MB,Jagath_kumar
 partition-labels,2026-01-19 18:21:50,cpp,Accepted,0 ms,9.2 MB,Jagath_kumar_reddy_k,,,
 permutations,2025-09-03 20:55:27,cpp,Accepted,0 ms,10.4 MB,Jagath_kumar_reddy_k,0.0,10.4,10.4
 product-of-array-except-self,2026-01-04 21:46:13,cpp,Accepted,0 ms,40.3 MB,Jagath_kumar_reddy_k,,,
+pythagorean-distance-nodes-in-a-tree,2026-01-25 16:41:21,cpp,Accepted,673 ms,468 MB,Jagath_kumar_reddy_k,,,
 range-sum-of-sorted-subarray-sums,2026-01-01 04:27:23,cpp,Accepted,86 ms,27 MB,Jagath_kumar_reddy_k,,,
 reconstruct-itinerary,2025-12-25 08:03:18,cpp,Accepted,12 ms,21.1 MB,Jagath_kumar_reddy_k,12.0,21.1,33.1
 redundant-connection,2025-12-18 01:19:47,cpp,Accepted,4 ms,14.4 MB,Jagath_kumar_reddy_k,4.0,14.4,18.4
@@ -159,6 +160,7 @@ longest-palindromic-substring,2025-10-31 19:39:45,python3,Accepted,363 ms,18 MB,
 longest-substring-without-repeating-characters,2026-01-04 00:30:35,python,Accepted,23 ms,13.3 MB,madhavan02,,,
 maximum-level-sum-of-a-binary-tree,2026-01-06 21:50:56,python3,Accepted,26 ms,22.9 MB,madhavan02,,,
 maximum-product-subarray,2025-11-02 00:48:09,python3,Accepted,10 ms,18.5 MB,madhavan02,10.0,18.5,28.5
+median-of-two-sorted-arrays,2026-01-25 23:38:49,python3,Accepted,0 ms,19.7 MB,madhavan02,,,
 minimum-size-subarray-sum,2026-01-15 11:37:22,python3,Accepted,7 ms,30.6 MB,madhavan02,,,
 move-zeroes,2026-01-13 15:42:50,python3,Accepted,9 ms,20.6 MB,madhavan02,,,
 next-greater-element-i,2026-01-16 01:46:18,python3,Accepted,0 ms,19.5 MB,madhavan02,,,
