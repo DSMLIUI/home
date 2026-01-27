@@ -57,6 +57,7 @@ minimum-prefix-removal-to-make-array-strictly-increasing,2026-01-25 02:34:07,cpp
 mirror-distance-of-an-integer,2025-12-21 03:34:51,python3,Accepted,0 ms,17.3 MB,Jagath_kumar_reddy_k,0.0,17.3,17.3
 n-queens,2026-01-07 02:23:26,cpp,Accepted,0 ms,10.1 MB,Jagath_kumar_reddy_k,,,
 network-delay-time,2025-12-23 16:50:28,cpp,Accepted,94 ms,48 MB,Jagath_kumar_reddy_k,94.0,48.0,142.0
+number-of-1-bits,2026-01-26 18:31:06,cpp,Accepted,0 ms,8.3 MB,Jagath_kumar_reddy_k,,,
 number-of-islands,2025-11-16 01:21:38,cpp,Accepted,43 ms,22.4 MB,Jagath_kumar_reddy_k,43.0,22.4,65.4
 palindrome-partitioning,2026-01-06 18:23:18,cpp,Accepted,26 ms,53.5 MB,Jagath_kumar_reddy_k,,,
 palindromic-substrings,2025-08-24 17:26:47,cpp,Accepted,0 ms,8.7 MB,Jagath_kumar_reddy_k,0.0,8.7,8.7
