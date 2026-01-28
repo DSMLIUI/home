@@ -10,6 +10,7 @@ contains-duplicate,2026-01-04 19:48:06,cpp,Accepted,47 ms,90.7 MB,Jagath_kumar_r
 count-caesar-cipher-pairs,2026-01-11 03:44:44,cpp,Accepted,683 ms,107.9 MB,Jagath_kumar_reddy_k,,,
 count-residue-prefixes,2026-01-11 02:43:14,cpp,Accepted,3 ms,10.4 MB,Jagath_kumar_reddy_k,,,
 count-salary-categories,2025-12-18 04:00:27,mysql,Accepted,1595 ms,0.0B,Jagath_kumar_reddy_k,1595.0,0.0,1595.0
+counting-bits,2026-01-28 04:58:41,cpp,Accepted,3 ms,11.3 MB,Jagath_kumar_reddy_k,,,
 course-schedule,2025-12-17 21:31:11,cpp,Accepted,9 ms,20.2 MB,Jagath_kumar_reddy_k,9.0,20.2,29.2
 course-schedule-ii,2025-12-22 15:48:07,cpp,Accepted,7 ms,18.3 MB,Jagath_kumar_reddy_k,7.0,18.3,25.3
 decode-ways,2025-08-25 00:29:42,cpp,Accepted,0 ms,8.2 MB,Jagath_kumar_reddy_k,0.0,8.2,8.2
@@ -74,6 +75,8 @@ reverse-string-prefix,2026-01-03 14:36:49,python3,Accepted,0 ms,17.5 MB,Jagath_k
 rotate-non-negative-elements,2026-01-25 03:03:29,cpp,Accepted,29 ms,310.6 MB,Jagath_kumar_reddy_k,,,
 rotting-oranges,2025-11-16 00:27:54,cpp,Accepted,0 ms,17.1 MB,Jagath_kumar_reddy_k,0.0,17.1,17.1
 single-number,2026-01-05 00:52:16,cpp,Accepted,0 ms,21 MB,Jagath_kumar_reddy_k,,,
+single-number-ii,2026-01-27 17:02:46,cpp,Accepted,0 ms,13.4 MB,Jagath_kumar_reddy_k,,,
+single-number-iii,2026-01-27 17:24:17,cpp,Accepted,1 ms,14.1 MB,Jagath_kumar_reddy_k,,,
 subsets-ii,2025-09-04 01:28:01,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0.0,10.6,10.6
 surrounded-regions,2025-12-11 16:12:43,cpp,Accepted,11 ms,20.7 MB,Jagath_kumar_reddy_k,11.0,20.7,31.7
 swim-in-rising-water,2025-12-27 22:39:47,cpp,Accepted,0 ms,12.7 MB,Jagath_kumar_reddy_k,0.0,12.7,12.7
@@ -185,6 +188,7 @@ validate-binary-search-tree,2026-01-23 19:52:51,python3,Accepted,0 ms,21.1 MB,ma
 word-break,2025-11-02 22:44:26,python3,Accepted,4 ms,17.9 MB,madhavan02,4.0,17.9,21.9
 average-selling-price,2025-09-13 18:16:58,postgresql,Accepted,227 ms,0.0B,user2464b,227.0,0.0,227.0
 average-time-of-process-per-machine,2025-04-24 04:41:31,postgresql,Accepted,157 ms,0.0B,user2464b,157.0,0.0,157.0
+concatenation-of-array,2026-01-27 15:49:56,python3,Accepted,0 ms,19.3 MB,user2464b,,,
 confirmation-rate,2025-05-03 15:17:04,postgresql,Accepted,232 ms,0.0B,user2464b,232.0,0.0,232.0
 customer-who-visited-but-did-not-make-any-transactions,2025-09-08 18:09:57,postgresql,Accepted,450 ms,0.0B,user2464b,450.0,0.0,450.0
 employee-bonus,2025-04-24 04:48:20,postgresql,Accepted,319 ms,0.0B,user2464b,319.0,0.0,319.0
