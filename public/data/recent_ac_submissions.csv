@@ -19,6 +19,7 @@ design-twitter,2026-01-02 20:10:49,cpp,Accepted,1 ms,57.4 MB,Jagath_kumar_reddy_
 detect-cycles-in-2d-grid,2025-11-18 06:36:44,cpp,Accepted,127 ms,214.9 MB,Jagath_kumar_reddy_k,127.0,214.9,341.9
 distinct-subsequences,2026-01-16 17:08:42,cpp,Accepted,37 ms,44.2 MB,Jagath_kumar_reddy_k,,,
 find-median-from-data-stream,2026-01-03 04:03:00,cpp,Accepted,64 ms,148.7 MB,Jagath_kumar_reddy_k,,,
+find-the-duplicate-number,2026-01-28 22:05:37,cpp,Accepted,2 ms,65.6 MB,Jagath_kumar_reddy_k,,,
 find-the-xor-of-numbers-which-appear-twice,2026-01-24 18:32:02,cpp,Accepted,0 ms,27.6 MB,Jagath_kumar_reddy_k,,,
 gas-station,2026-01-08 17:56:17,cpp,Accepted,0 ms,109.8 MB,Jagath_kumar_reddy_k,,,
 generate-parentheses,2026-01-05 17:03:51,cpp,Accepted,0 ms,12.9 MB,Jagath_kumar_reddy_k,,,
@@ -56,6 +57,7 @@ minimum-cost-to-cut-a-stick,2025-12-22 02:05:28,cpp,Accepted,11 ms,14.1 MB,Jagat
 minimum-deletion-cost-to-make-all-characters-equal,2025-12-21 03:44:39,python3,Accepted,363 ms,30.5 MB,Jagath_kumar_reddy_k,363.0,30.5,393.5
 minimum-prefix-removal-to-make-array-strictly-increasing,2026-01-25 02:34:07,cpp,Accepted,0 ms,193.3 MB,Jagath_kumar_reddy_k,,,
 mirror-distance-of-an-integer,2025-12-21 03:34:51,python3,Accepted,0 ms,17.3 MB,Jagath_kumar_reddy_k,0.0,17.3,17.3
+missing-number,2026-01-28 15:49:53,cpp,Accepted,0 ms,21.7 MB,Jagath_kumar_reddy_k,,,
 n-queens,2026-01-07 02:23:26,cpp,Accepted,0 ms,10.1 MB,Jagath_kumar_reddy_k,,,
 network-delay-time,2025-12-23 16:50:28,cpp,Accepted,94 ms,48 MB,Jagath_kumar_reddy_k,94.0,48.0,142.0
 number-of-1-bits,2026-01-26 18:31:06,cpp,Accepted,0 ms,8.3 MB,Jagath_kumar_reddy_k,,,
@@ -71,6 +73,7 @@ reconstruct-itinerary,2025-12-25 08:03:18,cpp,Accepted,12 ms,21.1 MB,Jagath_kuma
 redundant-connection,2025-12-18 01:19:47,cpp,Accepted,4 ms,14.4 MB,Jagath_kumar_reddy_k,4.0,14.4,18.4
 regular-expression-matching,2025-11-02 22:22:03,cpp,Accepted,3 ms,9.1 MB,Jagath_kumar_reddy_k,3.0,9.1,12.1
 restore-finishing-order,2025-09-05 22:14:00,cpp,Accepted,0 ms,50.2 MB,Jagath_kumar_reddy_k,0.0,50.2,50.2
+reverse-bits,2026-01-28 15:15:51,cpp,Accepted,0 ms,8 MB,Jagath_kumar_reddy_k,,,
 reverse-string-prefix,2026-01-03 14:36:49,python3,Accepted,0 ms,17.5 MB,Jagath_kumar_reddy_k,,,
 rotate-non-negative-elements,2026-01-25 03:03:29,cpp,Accepted,29 ms,310.6 MB,Jagath_kumar_reddy_k,,,
 rotting-oranges,2025-11-16 00:27:54,cpp,Accepted,0 ms,17.1 MB,Jagath_kumar_reddy_k,0.0,17.1,17.1
@@ -78,6 +81,7 @@ single-number,2026-01-05 00:52:16,cpp,Accepted,0 ms,21 MB,Jagath_kumar_reddy_k,,
 single-number-ii,2026-01-27 17:02:46,cpp,Accepted,0 ms,13.4 MB,Jagath_kumar_reddy_k,,,
 single-number-iii,2026-01-27 17:24:17,cpp,Accepted,1 ms,14.1 MB,Jagath_kumar_reddy_k,,,
 subsets-ii,2025-09-04 01:28:01,cpp,Accepted,0 ms,10.6 MB,Jagath_kumar_reddy_k,0.0,10.6,10.6
+sum-of-two-integers,2026-01-28 21:58:48,cpp,Accepted,0 ms,7.8 MB,Jagath_kumar_reddy_k,,,
 surrounded-regions,2025-12-11 16:12:43,cpp,Accepted,11 ms,20.7 MB,Jagath_kumar_reddy_k,11.0,20.7,31.7
 swim-in-rising-water,2025-12-27 22:39:47,cpp,Accepted,0 ms,12.7 MB,Jagath_kumar_reddy_k,0.0,12.7,12.7
 target-sum,2025-10-23 02:23:38,cpp,Accepted,30 ms,26 MB,Jagath_kumar_reddy_k,30.0,26.0,56.0
