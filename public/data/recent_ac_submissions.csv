@@ -198,6 +198,7 @@ customer-who-visited-but-did-not-make-any-transactions,2025-09-08 18:09:57,postg
 employee-bonus,2025-04-24 04:48:20,postgresql,Accepted,319 ms,0.0B,user2464b,319.0,0.0,319.0
 invalid-tweets,2025-09-06 22:54:44,postgresql,Accepted,337 ms,0.0B,user2464b,337.0,0.0,337.0
 managers-with-at-least-5-direct-reports,2025-05-03 14:34:45,postgresql,Accepted,304 ms,0.0B,user2464b,304.0,0.0,304.0
+maximum-average-subarray-i,2026-01-30 15:37:51,python3,Accepted,60 ms,29 MB,user2464b,,,
 not-boring-movies,2025-10-01 18:24:21,postgresql,Accepted,185 ms,0.0B,user2464b,185.0,0.0,185.0
 product-sales-analysis-i,2025-09-08 17:07:21,postgresql,Accepted,1489 ms,0.0B,user2464b,1489.0,0.0,1489.0
 recyclable-and-low-fat-products,2025-09-06 22:18:34,postgresql,Accepted,283 ms,0.0B,user2464b,283.0,0.0,283.0
